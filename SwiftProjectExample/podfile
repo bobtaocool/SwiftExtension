@@ -1,0 +1,34 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+inhibit_all_warnings!
+
+target 'SwiftProjectExample'  do
+pod 'SnapKit'
+pod 'Kingfisher'
+pod 'HandyJSON'
+pod 'SVProgressHUD'
+pod 'SwiftyJSON'
+pod 'SnapKit'
+pod 'Alamofire'
+pod 'SQLite.swift'
+pod 'RxSwift'
+pod 'RxCocoa'
+
+end
+
+
+
+target 'SwiftProjectExampleQ'  do
+pod 'SnapKit'
+pod 'Kingfisher'
+pod 'HandyJSON'
+pod 'SVProgressHUD'
+pod 'SwiftyJSON'
+pod 'SnapKit'
+pod 'Alamofire'
+pod 'SQLite.swift'
+pod 'RxSwift'
+pod 'RxCocoa'
+
+end
+    
