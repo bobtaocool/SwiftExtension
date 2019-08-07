@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E92E6017819C93AC13D5B33 /* libPods-SwiftProjectExampleQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0F56D377992E107A1009A6 /* libPods-SwiftProjectExampleQ.a */; };
-		4F5842E7E4A3B43B1841FADD /* libPods-SwiftProjectExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 717D235F612B368875BA5082 /* libPods-SwiftProjectExample.a */; };
+		92E03793A648CE97F027357E /* Pods_SwiftProjectExampleQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A283276C33FA5E262EE31A6E /* Pods_SwiftProjectExampleQ.framework */; };
+		97CFE9DDE7730863B263AF8E /* Pods_SwiftProjectExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C761E024DB903D69B23E0930 /* Pods_SwiftProjectExample.framework */; };
 		C48E6E4522F80EB900AE7EEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E4422F80EB900AE7EEF /* AppDelegate.swift */; };
 		C48E6E4722F80EB900AE7EEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E4622F80EB900AE7EEF /* ViewController.swift */; };
 		C48E6E4A22F80EB900AE7EEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48E6E4822F80EB900AE7EEF /* Main.storyboard */; };
@@ -19,14 +19,29 @@
 		C48E6E6C22F80FEF00AE7EEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48E6E4D22F80EBE00AE7EEF /* LaunchScreen.storyboard */; };
 		C48E6E6D22F80FEF00AE7EEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48E6E4B22F80EBE00AE7EEF /* Assets.xcassets */; };
 		C48E6E6E22F80FEF00AE7EEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48E6E4822F80EB900AE7EEF /* Main.storyboard */; };
+		C48E6E8322FA736500AE7EEF /* TBTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E8222FA736500AE7EEF /* TBTabbarController.swift */; };
+		C48E6E8422FA736500AE7EEF /* TBTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E8222FA736500AE7EEF /* TBTabbarController.swift */; };
+		C48E6E8B22FA758800AE7EEF /* TBBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E8A22FA758800AE7EEF /* TBBaseVC.swift */; };
+		C48E6E8C22FA758800AE7EEF /* TBBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E8A22FA758800AE7EEF /* TBBaseVC.swift */; };
+		C48E6E8E22FA75B900AE7EEF /* TBBaseNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E8D22FA75B900AE7EEF /* TBBaseNavVC.swift */; };
+		C48E6E8F22FA75B900AE7EEF /* TBBaseNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E8D22FA75B900AE7EEF /* TBBaseNavVC.swift */; };
+		C48E6E9122FA76A200AE7EEF /* TBShowUIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E9022FA76A200AE7EEF /* TBShowUIVC.swift */; };
+		C48E6E9222FA76A200AE7EEF /* TBShowUIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E9022FA76A200AE7EEF /* TBShowUIVC.swift */; };
+		C48E6E9422FA76EF00AE7EEF /* TBShowJsonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E9322FA76EF00AE7EEF /* TBShowJsonVC.swift */; };
+		C48E6E9522FA76EF00AE7EEF /* TBShowJsonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E9322FA76EF00AE7EEF /* TBShowJsonVC.swift */; };
+		C48E6E9722FA770700AE7EEF /* TBShowRxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E9622FA770700AE7EEF /* TBShowRxVC.swift */; };
+		C48E6E9822FA770700AE7EEF /* TBShowRxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E9622FA770700AE7EEF /* TBShowRxVC.swift */; };
+		C48E6E9A22FA772600AE7EEF /* TBShowNetWorkingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E9922FA772600AE7EEF /* TBShowNetWorkingVC.swift */; };
+		C48E6E9B22FA772600AE7EEF /* TBShowNetWorkingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E9922FA772600AE7EEF /* TBShowNetWorkingVC.swift */; };
+		C48E6E9D22FA774400AE7EEF /* TBShowSQLVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E9C22FA774400AE7EEF /* TBShowSQLVC.swift */; };
+		C48E6E9E22FA774400AE7EEF /* TBShowSQLVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E9C22FA774400AE7EEF /* TBShowSQLVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		019F5CD53C8728496D0DB0FE /* Pods-SwiftProjectExampleQ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectExampleQ.debug.xcconfig"; path = "Target Support Files/Pods-SwiftProjectExampleQ/Pods-SwiftProjectExampleQ.debug.xcconfig"; sourceTree = "<group>"; };
-		4A0F56D377992E107A1009A6 /* libPods-SwiftProjectExampleQ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftProjectExampleQ.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63786E64292526A7DC8716EB /* Pods-SwiftProjectExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectExample.debug.xcconfig"; path = "Target Support Files/Pods-SwiftProjectExample/Pods-SwiftProjectExample.debug.xcconfig"; sourceTree = "<group>"; };
-		717D235F612B368875BA5082 /* libPods-SwiftProjectExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftProjectExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE5A756EFA7C4E05C3EA727 /* Pods-SwiftProjectExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectExample.release.xcconfig"; path = "Target Support Files/Pods-SwiftProjectExample/Pods-SwiftProjectExample.release.xcconfig"; sourceTree = "<group>"; };
+		A283276C33FA5E262EE31A6E /* Pods_SwiftProjectExampleQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProjectExampleQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48E6E4122F80EB900AE7EEF /* SwiftProjectExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProjectExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48E6E4422F80EB900AE7EEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C48E6E4622F80EB900AE7EEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +53,15 @@
 		C48E6E6522F80FEA00AE7EEF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		C48E6E7222F80FEF00AE7EEF /* SwiftProjectExampleQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProjectExampleQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48E6E7322F80FF000AE7EEF /* SwiftProjectExampleQ.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = SwiftProjectExampleQ.plist; path = /Users/bob/SwiftProjectExample/SwiftProjectExample/SwiftProjectExampleQ.plist; sourceTree = "<absolute>"; };
+		C48E6E8222FA736500AE7EEF /* TBTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBTabbarController.swift; sourceTree = "<group>"; };
+		C48E6E8A22FA758800AE7EEF /* TBBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBBaseVC.swift; sourceTree = "<group>"; };
+		C48E6E8D22FA75B900AE7EEF /* TBBaseNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBBaseNavVC.swift; sourceTree = "<group>"; };
+		C48E6E9022FA76A200AE7EEF /* TBShowUIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBShowUIVC.swift; sourceTree = "<group>"; };
+		C48E6E9322FA76EF00AE7EEF /* TBShowJsonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBShowJsonVC.swift; sourceTree = "<group>"; };
+		C48E6E9622FA770700AE7EEF /* TBShowRxVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBShowRxVC.swift; sourceTree = "<group>"; };
+		C48E6E9922FA772600AE7EEF /* TBShowNetWorkingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBShowNetWorkingVC.swift; sourceTree = "<group>"; };
+		C48E6E9C22FA774400AE7EEF /* TBShowSQLVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBShowSQLVC.swift; sourceTree = "<group>"; };
+		C761E024DB903D69B23E0930 /* Pods_SwiftProjectExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProjectExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACC2AC784151AAF9006CF6C /* Pods-SwiftProjectExampleQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectExampleQ.release.xcconfig"; path = "Target Support Files/Pods-SwiftProjectExampleQ/Pods-SwiftProjectExampleQ.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -46,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F5842E7E4A3B43B1841FADD /* libPods-SwiftProjectExample.a in Frameworks */,
+				97CFE9DDE7730863B263AF8E /* Pods_SwiftProjectExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E92E6017819C93AC13D5B33 /* libPods-SwiftProjectExampleQ.a in Frameworks */,
+				92E03793A648CE97F027357E /* Pods_SwiftProjectExampleQ.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,15 +93,14 @@
 				019F5CD53C8728496D0DB0FE /* Pods-SwiftProjectExampleQ.debug.xcconfig */,
 				EACC2AC784151AAF9006CF6C /* Pods-SwiftProjectExampleQ.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		4AA64819E11DA6D0CB32676C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				717D235F612B368875BA5082 /* libPods-SwiftProjectExample.a */,
-				4A0F56D377992E107A1009A6 /* libPods-SwiftProjectExampleQ.a */,
+				C761E024DB903D69B23E0930 /* Pods_SwiftProjectExample.framework */,
+				A283276C33FA5E262EE31A6E /* Pods_SwiftProjectExampleQ.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -104,6 +127,8 @@
 		C48E6E4322F80EB900AE7EEF /* SwiftProjectExample */ = {
 			isa = PBXGroup;
 			children = (
+				C48E6E7D22FA725900AE7EEF /* Class */,
+				C48E6E7E22FA726700AE7EEF /* Expand */,
 				C48E6E4422F80EB900AE7EEF /* AppDelegate.swift */,
 				C48E6E4622F80EB900AE7EEF /* ViewController.swift */,
 				C48E6E4822F80EB900AE7EEF /* Main.storyboard */,
@@ -113,6 +138,92 @@
 				C48E6E7322F80FF000AE7EEF /* SwiftProjectExampleQ.plist */,
 			);
 			path = SwiftProjectExample;
+			sourceTree = "<group>";
+		};
+		C48E6E7D22FA725900AE7EEF /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				C48E6E8922FA73D400AE7EEF /* SQLVC */,
+				C48E6E8822FA73CA00AE7EEF /* NETVC */,
+				C48E6E8722FA73B600AE7EEF /* RXVC */,
+				C48E6E8622FA73AC00AE7EEF /* JSONVC */,
+				C48E6E8522FA73A000AE7EEF /* UIVC */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		C48E6E7E22FA726700AE7EEF /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				C48E6E8122FA730700AE7EEF /* Manager */,
+				C48E6E8022FA72D300AE7EEF /* Tools */,
+				C48E6E7F22FA728C00AE7EEF /* Base */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		C48E6E7F22FA728C00AE7EEF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C48E6E8222FA736500AE7EEF /* TBTabbarController.swift */,
+				C48E6E8A22FA758800AE7EEF /* TBBaseVC.swift */,
+				C48E6E8D22FA75B900AE7EEF /* TBBaseNavVC.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C48E6E8022FA72D300AE7EEF /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		C48E6E8122FA730700AE7EEF /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		C48E6E8522FA73A000AE7EEF /* UIVC */ = {
+			isa = PBXGroup;
+			children = (
+				C48E6E9022FA76A200AE7EEF /* TBShowUIVC.swift */,
+			);
+			path = UIVC;
+			sourceTree = "<group>";
+		};
+		C48E6E8622FA73AC00AE7EEF /* JSONVC */ = {
+			isa = PBXGroup;
+			children = (
+				C48E6E9322FA76EF00AE7EEF /* TBShowJsonVC.swift */,
+			);
+			path = JSONVC;
+			sourceTree = "<group>";
+		};
+		C48E6E8722FA73B600AE7EEF /* RXVC */ = {
+			isa = PBXGroup;
+			children = (
+				C48E6E9622FA770700AE7EEF /* TBShowRxVC.swift */,
+			);
+			path = RXVC;
+			sourceTree = "<group>";
+		};
+		C48E6E8822FA73CA00AE7EEF /* NETVC */ = {
+			isa = PBXGroup;
+			children = (
+				C48E6E9922FA772600AE7EEF /* TBShowNetWorkingVC.swift */,
+			);
+			path = NETVC;
+			sourceTree = "<group>";
+		};
+		C48E6E8922FA73D400AE7EEF /* SQLVC */ = {
+			isa = PBXGroup;
+			children = (
+				C48E6E9C22FA774400AE7EEF /* TBShowSQLVC.swift */,
+			);
+			path = SQLVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +237,7 @@
 				C48E6E3D22F80EB900AE7EEF /* Sources */,
 				C48E6E3E22F80EB900AE7EEF /* Frameworks */,
 				C48E6E3F22F80EB900AE7EEF /* Resources */,
-				B6AC4AE0852647AF099C1F1E /* [CP] Copy Pods Resources */,
+				D6322E1603390D78EDC8798D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,7 +256,7 @@
 				C48E6E6722F80FEF00AE7EEF /* Sources */,
 				C48E6E6A22F80FEF00AE7EEF /* Frameworks */,
 				C48E6E6B22F80FEF00AE7EEF /* Resources */,
-				FD0145594576F8AECD6C9748 /* [CP] Copy Pods Resources */,
+				84E15FEAC5407F81E4279EEA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,7 +369,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B6AC4AE0852647AF099C1F1E /* [CP] Copy Pods Resources */ = {
+		84E15FEAC5407F81E4279EEA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,21 +377,35 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftProjectExample/Pods-SwiftProjectExample-resources.sh",
-				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftProjectExampleQ/Pods-SwiftProjectExampleQ-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftProjectExample/Pods-SwiftProjectExample-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftProjectExampleQ/Pods-SwiftProjectExampleQ-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FD0145594576F8AECD6C9748 /* [CP] Copy Pods Resources */ = {
+		D6322E1603390D78EDC8798D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -288,18 +413,32 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftProjectExampleQ/Pods-SwiftProjectExampleQ-resources.sh",
-				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftProjectExample/Pods-SwiftProjectExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftProjectExampleQ/Pods-SwiftProjectExampleQ-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftProjectExample/Pods-SwiftProjectExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -309,8 +448,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C48E6E8322FA736500AE7EEF /* TBTabbarController.swift in Sources */,
+				C48E6E9422FA76EF00AE7EEF /* TBShowJsonVC.swift in Sources */,
+				C48E6E9122FA76A200AE7EEF /* TBShowUIVC.swift in Sources */,
 				C48E6E4722F80EB900AE7EEF /* ViewController.swift in Sources */,
+				C48E6E9D22FA774400AE7EEF /* TBShowSQLVC.swift in Sources */,
+				C48E6E9A22FA772600AE7EEF /* TBShowNetWorkingVC.swift in Sources */,
 				C48E6E4522F80EB900AE7EEF /* AppDelegate.swift in Sources */,
+				C48E6E9722FA770700AE7EEF /* TBShowRxVC.swift in Sources */,
+				C48E6E8E22FA75B900AE7EEF /* TBBaseNavVC.swift in Sources */,
+				C48E6E8B22FA758800AE7EEF /* TBBaseVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,8 +465,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C48E6E8422FA736500AE7EEF /* TBTabbarController.swift in Sources */,
+				C48E6E9522FA76EF00AE7EEF /* TBShowJsonVC.swift in Sources */,
+				C48E6E9222FA76A200AE7EEF /* TBShowUIVC.swift in Sources */,
 				C48E6E6822F80FEF00AE7EEF /* ViewController.swift in Sources */,
+				C48E6E9E22FA774400AE7EEF /* TBShowSQLVC.swift in Sources */,
+				C48E6E9B22FA772600AE7EEF /* TBShowNetWorkingVC.swift in Sources */,
 				C48E6E6922F80FEF00AE7EEF /* AppDelegate.swift in Sources */,
+				C48E6E9822FA770700AE7EEF /* TBShowRxVC.swift in Sources */,
+				C48E6E8F22FA75B900AE7EEF /* TBBaseNavVC.swift in Sources */,
+				C48E6E8C22FA758800AE7EEF /* TBBaseVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +671,7 @@
 					"ISENTERPRISE=1",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftProjectExampleQ.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -535,6 +691,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58UK378632;
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftProjectExampleQ.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
