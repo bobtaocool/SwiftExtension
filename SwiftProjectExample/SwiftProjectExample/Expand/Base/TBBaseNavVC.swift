@@ -12,11 +12,8 @@ class TBBaseNavVC: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        view.backgroundColor = UIColor.HEX(0xFFFFFF)
     }
-    
-    
 }
 
 extension TBBaseNavVC {
@@ -26,5 +23,12 @@ extension TBBaseNavVC {
         self.tabBarItem.image = UIImage(named: defalutImageName)?.withRenderingMode(.alwaysOriginal)
         self.tabBarItem.selectedImage = UIImage(named: selectedImageName)?.withRenderingMode(.alwaysOriginal)
     }
+    
+}
+
+extension TBBaseNavVC {
+    
+    
+    
     
 }

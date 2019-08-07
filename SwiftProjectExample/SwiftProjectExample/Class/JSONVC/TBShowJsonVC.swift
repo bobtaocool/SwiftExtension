@@ -12,7 +12,7 @@ class TBShowJsonVC: TBBaseVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        title = "JSON"
         // Do any additional setup after loading the view.
     }
     

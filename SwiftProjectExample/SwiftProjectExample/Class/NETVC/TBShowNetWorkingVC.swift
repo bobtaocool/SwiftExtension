@@ -12,7 +12,7 @@ class TBShowNetWorkingVC: TBBaseVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        title = "NET"
         // Do any additional setup after loading the view.
     }
     

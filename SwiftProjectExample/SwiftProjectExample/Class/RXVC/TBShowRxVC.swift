@@ -12,7 +12,7 @@ class TBShowRxVC: TBBaseVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        title = "RX"
         // Do any additional setup after loading the view.
     }
     

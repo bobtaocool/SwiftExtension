@@ -12,7 +12,7 @@ class TBShowUIVC: TBBaseVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        title = "UI"
         // Do any additional setup after loading the view.
     }
     
