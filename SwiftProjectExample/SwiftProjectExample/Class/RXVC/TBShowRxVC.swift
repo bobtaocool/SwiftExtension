@@ -24,7 +24,6 @@ class TBShowRxVC: TBBaseVC {
     }
     
     lazy var tableView :UITableView = {
-        
         let tab = UITableView.init(frame:CGRect.zero, style: .plain)
         tab.delegate = self
         tab.dataSource = self
@@ -58,7 +57,7 @@ extension TBShowRxVC :UITableViewDataSource {
         
         let model = dataSource[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = model.title
+        cell.textLabel?.text = String(format: "%d", indexPath.row) + model.title
         return cell
     }
 
