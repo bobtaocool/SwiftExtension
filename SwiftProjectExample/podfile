@@ -6,28 +6,28 @@ inhibit_all_warnings!
 target 'SwiftProjectExample'  do
 pod 'SnapKit'
 pod 'Kingfisher'
-pod 'HandyJSON','~> 4.2.1'
+pod 'HandyJSON'
 pod 'SVProgressHUD'
 pod 'SwiftyJSON'
 pod 'SnapKit'
 pod 'Alamofire'
-#pod 'SQLite.swift'
-pod 'RxSwift',    '~> 4.0'
-pod 'RxCocoa',    '~> 4.0'                            
+pod 'SQLite.swift'
+pod 'RxSwift'
+pod 'RxCocoa'
 
 end
 
 target 'SwiftProjectExampleQ'  do
 pod 'SnapKit'
 pod 'Kingfisher'
-pod 'HandyJSON','~> 4.2.1'
+pod 'HandyJSON'
 pod 'SVProgressHUD'
 pod 'SwiftyJSON'
 pod 'SnapKit'
 pod 'Alamofire'
-#pod 'SQLite.swift'
-pod 'RxSwift',    '~> 4.0'
-pod 'RxCocoa',    '~> 4.0'
+pod 'SQLite.swift'
+pod 'RxSwift'
+pod 'RxCocoa'
 
 end
     

@@ -8,23 +8,63 @@
 
 import UIKit
 
+typealias singleData = (title :String ,url: String ,example : Bool)
 class TBShowRxVC: TBBaseVC {
+    
+    var dataSource : Array <singleData> = [singleData("Observable介绍、创建可观察序列","https://www.jianshu.com/p/63f1681236fd",false)]
 
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "RX"
-        // Do any additional setup after loading the view.
+        view.addSubview(tableView)
+        
+        tableView.snp.makeConstraints { (make) in
+            make.left.right.bottom.top.equalTo(self.view)
+        }
     }
     
+    lazy var tableView :UITableView = {
+        
+        let tab = UITableView.init(frame:CGRect.zero, style: .plain)
+        tab.delegate = self
+        tab.dataSource = self
+        tab.rowHeight = UITableView.automaticDimension;
+        tab.estimatedRowHeight = 50
+        tab.estimatedSectionFooterHeight = 0
+        tab.estimatedSectionHeaderHeight = 0
+        tab.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        return tab
+    }()
+    
+}
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+extension TBShowRxVC : UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 0.01
     }
-    */
+    
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return 0.01
+    }
+}
 
+extension TBShowRxVC :UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return dataSource.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let model = dataSource[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        cell.textLabel?.text = model.title
+        return cell
+    }
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let model = dataSource[indexPath.row]
+        let web = TBWebViewVC.init(urlString: model.url)
+        navigationController?.pushViewController(web, animated: true)
+    }
 }

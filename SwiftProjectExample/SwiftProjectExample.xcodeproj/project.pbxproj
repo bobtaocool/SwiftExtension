@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		92E03793A648CE97F027357E /* Pods_SwiftProjectExampleQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A283276C33FA5E262EE31A6E /* Pods_SwiftProjectExampleQ.framework */; };
 		97CFE9DDE7730863B263AF8E /* Pods_SwiftProjectExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C761E024DB903D69B23E0930 /* Pods_SwiftProjectExample.framework */; };
+		C41AED9422FD0D6C004CDD8A /* TBWebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AED9322FD0D6C004CDD8A /* TBWebViewVC.swift */; };
+		C41AED9522FD0D6C004CDD8A /* TBWebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AED9322FD0D6C004CDD8A /* TBWebViewVC.swift */; };
 		C48E6E4522F80EB900AE7EEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E4422F80EB900AE7EEF /* AppDelegate.swift */; };
 		C48E6E4722F80EB900AE7EEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E4622F80EB900AE7EEF /* ViewController.swift */; };
 		C48E6E4A22F80EB900AE7EEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48E6E4822F80EB900AE7EEF /* Main.storyboard */; };
@@ -48,6 +50,7 @@
 		63786E64292526A7DC8716EB /* Pods-SwiftProjectExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectExample.debug.xcconfig"; path = "Target Support Files/Pods-SwiftProjectExample/Pods-SwiftProjectExample.debug.xcconfig"; sourceTree = "<group>"; };
 		7CE5A756EFA7C4E05C3EA727 /* Pods-SwiftProjectExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectExample.release.xcconfig"; path = "Target Support Files/Pods-SwiftProjectExample/Pods-SwiftProjectExample.release.xcconfig"; sourceTree = "<group>"; };
 		A283276C33FA5E262EE31A6E /* Pods_SwiftProjectExampleQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProjectExampleQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41AED9322FD0D6C004CDD8A /* TBWebViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBWebViewVC.swift; sourceTree = "<group>"; };
 		C48E6E4122F80EB900AE7EEF /* SwiftProjectExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProjectExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48E6E4422F80EB900AE7EEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C48E6E4622F80EB900AE7EEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +117,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C41AED9222FD0D1B004CDD8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C48E6E3822F80EB900AE7EEF = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +188,7 @@
 				C48E6E8222FA736500AE7EEF /* TBTabbarController.swift */,
 				C48E6E8A22FA758800AE7EEF /* TBBaseVC.swift */,
 				C48E6E8D22FA75B900AE7EEF /* TBBaseNavVC.swift */,
+				C41AED9322FD0D6C004CDD8A /* TBWebViewVC.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -217,6 +228,7 @@
 		C48E6E8722FA73B600AE7EEF /* RXVC */ = {
 			isa = PBXGroup;
 			children = (
+				C41AED9222FD0D1B004CDD8A /* View */,
 				C48E6E9622FA770700AE7EEF /* TBShowRxVC.swift */,
 			);
 			path = RXVC;
@@ -301,6 +313,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = C48E6E3822F80EB900AE7EEF;
 			productRefGroup = C48E6E4222F80EB900AE7EEF /* Products */;
@@ -394,7 +407,9 @@
 				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
@@ -407,7 +422,9 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
@@ -430,7 +447,9 @@
 				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
@@ -443,7 +462,9 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
@@ -460,6 +481,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C41AED9422FD0D6C004CDD8A /* TBWebViewVC.swift in Sources */,
 				C48E6E8322FA736500AE7EEF /* TBTabbarController.swift in Sources */,
 				C48E6EA622FAC0E300AE7EEF /* UIView+Extension.swift in Sources */,
 				C48E6EA022FAAAFF00AE7EEF /* TBContansts.swift in Sources */,
@@ -480,6 +502,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C41AED9522FD0D6C004CDD8A /* TBWebViewVC.swift in Sources */,
 				C48E6E8422FA736500AE7EEF /* TBTabbarController.swift in Sources */,
 				C48E6EA722FAC0E300AE7EEF /* UIView+Extension.swift in Sources */,
 				C48E6EA122FAAAFF00AE7EEF /* TBContansts.swift in Sources */,
