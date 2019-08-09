@@ -18,6 +18,7 @@ class TBShowRxVC: TBBaseVC {
         title = "RX"
         view.addSubview(tableView)
         
+        navTitleRightBtn("test")
         tableView.snp.makeConstraints { (make) in
             make.left.right.bottom.top.equalTo(self.view)
         }
@@ -66,4 +67,13 @@ extension TBShowRxVC :UITableViewDataSource {
         let web = TBWebViewVC.init(urlString: model.url)
         navigationController?.pushViewController(web, animated: true)
     }
+}
+
+extension TBShowRxVC {
+    
+    override func rightBtnClick() {
+        let test = TBTestRxVC()
+        navigationController?.pushViewController(test, animated: true)
+    }
+    
 }

@@ -11,6 +11,8 @@
 		97CFE9DDE7730863B263AF8E /* Pods_SwiftProjectExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C761E024DB903D69B23E0930 /* Pods_SwiftProjectExample.framework */; };
 		C41AED9422FD0D6C004CDD8A /* TBWebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AED9322FD0D6C004CDD8A /* TBWebViewVC.swift */; };
 		C41AED9522FD0D6C004CDD8A /* TBWebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AED9322FD0D6C004CDD8A /* TBWebViewVC.swift */; };
+		C41AED9722FD6C4E004CDD8A /* TBTestRxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AED9622FD6C4E004CDD8A /* TBTestRxVC.swift */; };
+		C41AED9822FD6C4E004CDD8A /* TBTestRxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AED9622FD6C4E004CDD8A /* TBTestRxVC.swift */; };
 		C48E6E4522F80EB900AE7EEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E4422F80EB900AE7EEF /* AppDelegate.swift */; };
 		C48E6E4722F80EB900AE7EEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E4622F80EB900AE7EEF /* ViewController.swift */; };
 		C48E6E4A22F80EB900AE7EEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48E6E4822F80EB900AE7EEF /* Main.storyboard */; };
@@ -51,6 +53,7 @@
 		7CE5A756EFA7C4E05C3EA727 /* Pods-SwiftProjectExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectExample.release.xcconfig"; path = "Target Support Files/Pods-SwiftProjectExample/Pods-SwiftProjectExample.release.xcconfig"; sourceTree = "<group>"; };
 		A283276C33FA5E262EE31A6E /* Pods_SwiftProjectExampleQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProjectExampleQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C41AED9322FD0D6C004CDD8A /* TBWebViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBWebViewVC.swift; sourceTree = "<group>"; };
+		C41AED9622FD6C4E004CDD8A /* TBTestRxVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBTestRxVC.swift; sourceTree = "<group>"; };
 		C48E6E4122F80EB900AE7EEF /* SwiftProjectExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProjectExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48E6E4422F80EB900AE7EEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C48E6E4622F80EB900AE7EEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -230,6 +233,7 @@
 			children = (
 				C41AED9222FD0D1B004CDD8A /* View */,
 				C48E6E9622FA770700AE7EEF /* TBShowRxVC.swift */,
+				C41AED9622FD6C4E004CDD8A /* TBTestRxVC.swift */,
 			);
 			path = RXVC;
 			sourceTree = "<group>";
@@ -495,6 +499,7 @@
 				C48E6E9722FA770700AE7EEF /* TBShowRxVC.swift in Sources */,
 				C48E6E8E22FA75B900AE7EEF /* TBBaseNavVC.swift in Sources */,
 				C48E6E8B22FA758800AE7EEF /* TBBaseVC.swift in Sources */,
+				C41AED9722FD6C4E004CDD8A /* TBTestRxVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +521,7 @@
 				C48E6E9822FA770700AE7EEF /* TBShowRxVC.swift in Sources */,
 				C48E6E8F22FA75B900AE7EEF /* TBBaseNavVC.swift in Sources */,
 				C48E6E8C22FA758800AE7EEF /* TBBaseVC.swift in Sources */,
+				C41AED9822FD6C4E004CDD8A /* TBTestRxVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
