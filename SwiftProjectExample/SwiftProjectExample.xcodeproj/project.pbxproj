@@ -15,6 +15,10 @@
 		C41AED9522FD0D6C004CDD8A /* TBWebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AED9322FD0D6C004CDD8A /* TBWebViewVC.swift */; };
 		C41AED9722FD6C4E004CDD8A /* TBTestRxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AED9622FD6C4E004CDD8A /* TBTestRxVC.swift */; };
 		C41AED9822FD6C4E004CDD8A /* TBTestRxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AED9622FD6C4E004CDD8A /* TBTestRxVC.swift */; };
+		C47BBA912301A44D002F460C /* TBTest3RxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47BBA8F2301A44C002F460C /* TBTest3RxVC.swift */; };
+		C47BBA922301A44D002F460C /* TBTest3RxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47BBA8F2301A44C002F460C /* TBTest3RxVC.swift */; };
+		C47BBA932301A44D002F460C /* TBTest4RxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47BBA902301A44D002F460C /* TBTest4RxVC.swift */; };
+		C47BBA942301A44D002F460C /* TBTest4RxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47BBA902301A44D002F460C /* TBTest4RxVC.swift */; };
 		C48E6E4522F80EB900AE7EEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E4422F80EB900AE7EEF /* AppDelegate.swift */; };
 		C48E6E4722F80EB900AE7EEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E4622F80EB900AE7EEF /* ViewController.swift */; };
 		C48E6E4A22F80EB900AE7EEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48E6E4822F80EB900AE7EEF /* Main.storyboard */; };
@@ -61,6 +65,8 @@
 		C411C9F222FFBB1C0007A82D /* TBTest2RxVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBTest2RxVC.swift; sourceTree = "<group>"; };
 		C41AED9322FD0D6C004CDD8A /* TBWebViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBWebViewVC.swift; sourceTree = "<group>"; };
 		C41AED9622FD6C4E004CDD8A /* TBTestRxVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBTestRxVC.swift; sourceTree = "<group>"; };
+		C47BBA8F2301A44C002F460C /* TBTest3RxVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBTest3RxVC.swift; sourceTree = "<group>"; };
+		C47BBA902301A44D002F460C /* TBTest4RxVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBTest4RxVC.swift; sourceTree = "<group>"; };
 		C48E6E4122F80EB900AE7EEF /* SwiftProjectExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProjectExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48E6E4422F80EB900AE7EEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C48E6E4622F80EB900AE7EEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -246,6 +252,8 @@
 				C48E6E9622FA770700AE7EEF /* TBShowRxVC.swift */,
 				C41AED9622FD6C4E004CDD8A /* TBTestRxVC.swift */,
 				C411C9F222FFBB1C0007A82D /* TBTest2RxVC.swift */,
+				C47BBA8F2301A44C002F460C /* TBTest3RxVC.swift */,
+				C47BBA902301A44D002F460C /* TBTest4RxVC.swift */,
 			);
 			path = RXVC;
 			sourceTree = "<group>";
@@ -457,10 +465,12 @@
 				C48E6EA022FAAAFF00AE7EEF /* TBContansts.swift in Sources */,
 				C48E6E9422FA76EF00AE7EEF /* TBShowJsonVC.swift in Sources */,
 				C48E6EA322FAAD7800AE7EEF /* UIColor+Extension.swift in Sources */,
+				C47BBA912301A44D002F460C /* TBTest3RxVC.swift in Sources */,
 				C48E6E9122FA76A200AE7EEF /* TBShowUIVC.swift in Sources */,
 				C411C9F322FFBB1C0007A82D /* TBTest2RxVC.swift in Sources */,
 				C48E6E4722F80EB900AE7EEF /* ViewController.swift in Sources */,
 				C48E6E9D22FA774400AE7EEF /* TBShowSQLVC.swift in Sources */,
+				C47BBA932301A44D002F460C /* TBTest4RxVC.swift in Sources */,
 				C48E6E9A22FA772600AE7EEF /* TBShowNetWorkingVC.swift in Sources */,
 				C48E6E4522F80EB900AE7EEF /* AppDelegate.swift in Sources */,
 				C48E6E9722FA770700AE7EEF /* TBShowRxVC.swift in Sources */,
@@ -480,10 +490,12 @@
 				C48E6EA122FAAAFF00AE7EEF /* TBContansts.swift in Sources */,
 				C48E6E9522FA76EF00AE7EEF /* TBShowJsonVC.swift in Sources */,
 				C48E6EA422FAAD7800AE7EEF /* UIColor+Extension.swift in Sources */,
+				C47BBA922301A44D002F460C /* TBTest3RxVC.swift in Sources */,
 				C48E6E9222FA76A200AE7EEF /* TBShowUIVC.swift in Sources */,
 				C411C9F422FFBB1C0007A82D /* TBTest2RxVC.swift in Sources */,
 				C48E6E6822F80FEF00AE7EEF /* ViewController.swift in Sources */,
 				C48E6E9E22FA774400AE7EEF /* TBShowSQLVC.swift in Sources */,
+				C47BBA942301A44D002F460C /* TBTest4RxVC.swift in Sources */,
 				C48E6E9B22FA772600AE7EEF /* TBShowNetWorkingVC.swift in Sources */,
 				C48E6E6922F80FEF00AE7EEF /* AppDelegate.swift in Sources */,
 				C48E6E9822FA770700AE7EEF /* TBShowRxVC.swift in Sources */,
