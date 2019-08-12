@@ -45,6 +45,10 @@
 		C48E6EA422FAAD7800AE7EEF /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6EA222FAAD7800AE7EEF /* UIColor+Extension.swift */; };
 		C48E6EA622FAC0E300AE7EEF /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6EA522FAC0E300AE7EEF /* UIView+Extension.swift */; };
 		C48E6EA722FAC0E300AE7EEF /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6EA522FAC0E300AE7EEF /* UIView+Extension.swift */; };
+		C4A382782301139C0035866C /* TBTest3RxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A382772301139C0035866C /* TBTest3RxVC.swift */; };
+		C4A382792301139C0035866C /* TBTest3RxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A382772301139C0035866C /* TBTest3RxVC.swift */; };
+		C4A3827B23015A390035866C /* TBTest4RxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A3827A23015A390035866C /* TBTest4RxVC.swift */; };
+		C4A3827C23015A390035866C /* TBTest4RxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A3827A23015A390035866C /* TBTest4RxVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +80,8 @@
 		C48E6E9F22FAAAFF00AE7EEF /* TBContansts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBContansts.swift; sourceTree = "<group>"; };
 		C48E6EA222FAAD7800AE7EEF /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		C48E6EA522FAC0E300AE7EEF /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		C4A382772301139C0035866C /* TBTest3RxVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBTest3RxVC.swift; sourceTree = "<group>"; };
+		C4A3827A23015A390035866C /* TBTest4RxVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBTest4RxVC.swift; sourceTree = "<group>"; };
 		C761E024DB903D69B23E0930 /* Pods_SwiftProjectExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProjectExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACC2AC784151AAF9006CF6C /* Pods-SwiftProjectExampleQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectExampleQ.release.xcconfig"; path = "Target Support Files/Pods-SwiftProjectExampleQ/Pods-SwiftProjectExampleQ.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -234,6 +240,8 @@
 				C41AED9222FD0D1B004CDD8A /* View */,
 				C48E6E9622FA770700AE7EEF /* TBShowRxVC.swift */,
 				C41AED9622FD6C4E004CDD8A /* TBTestRxVC.swift */,
+				C4A382772301139C0035866C /* TBTest3RxVC.swift */,
+				C4A3827A23015A390035866C /* TBTest4RxVC.swift */,
 			);
 			path = RXVC;
 			sourceTree = "<group>";
@@ -493,8 +501,10 @@
 				C48E6EA322FAAD7800AE7EEF /* UIColor+Extension.swift in Sources */,
 				C48E6E9122FA76A200AE7EEF /* TBShowUIVC.swift in Sources */,
 				C48E6E4722F80EB900AE7EEF /* ViewController.swift in Sources */,
+				C4A382782301139C0035866C /* TBTest3RxVC.swift in Sources */,
 				C48E6E9D22FA774400AE7EEF /* TBShowSQLVC.swift in Sources */,
 				C48E6E9A22FA772600AE7EEF /* TBShowNetWorkingVC.swift in Sources */,
+				C4A3827B23015A390035866C /* TBTest4RxVC.swift in Sources */,
 				C48E6E4522F80EB900AE7EEF /* AppDelegate.swift in Sources */,
 				C48E6E9722FA770700AE7EEF /* TBShowRxVC.swift in Sources */,
 				C48E6E8E22FA75B900AE7EEF /* TBBaseNavVC.swift in Sources */,
@@ -515,8 +525,10 @@
 				C48E6EA422FAAD7800AE7EEF /* UIColor+Extension.swift in Sources */,
 				C48E6E9222FA76A200AE7EEF /* TBShowUIVC.swift in Sources */,
 				C48E6E6822F80FEF00AE7EEF /* ViewController.swift in Sources */,
+				C4A382792301139C0035866C /* TBTest3RxVC.swift in Sources */,
 				C48E6E9E22FA774400AE7EEF /* TBShowSQLVC.swift in Sources */,
 				C48E6E9B22FA772600AE7EEF /* TBShowNetWorkingVC.swift in Sources */,
+				C4A3827C23015A390035866C /* TBTest4RxVC.swift in Sources */,
 				C48E6E6922F80FEF00AE7EEF /* AppDelegate.swift in Sources */,
 				C48E6E9822FA770700AE7EEF /* TBShowRxVC.swift in Sources */,
 				C48E6E8F22FA75B900AE7EEF /* TBBaseNavVC.swift in Sources */,
