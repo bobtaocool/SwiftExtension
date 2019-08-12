@@ -12,9 +12,14 @@ import RxCocoa
 
 class TBTestRxVC: TBBaseVC {
 
+    var model :singleData?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "测试"
+        obser1()
+        navTitleRightBtn("参考")
         // Do any additional setup after loading the view.
     }
     
@@ -138,11 +143,26 @@ extension TBTestRxVC {
         )
         
         /*
-         该方法创建一个永远不会发出 Event（也不会终止）的 Observable 序列。
+         （1）这个方法有两种用法，一种是创建的 Observable序列在经过设定的一段时间后，产生唯一的一个元素。
          */
-        let observable12 = Observable<Any>.never()
+        let observable12 = Observable<Int>.timer(5, scheduler: MainScheduler.instance)
+     
+        observable12.subscribe { (event) in
+            print(event)
+        }
         
     }
     
+    
+}
+
+extension TBTestRxVC {
+    
+    override func rightBtnClick() {
+        
+        let web = TBWebViewVC.init(urlString: model!.url)
+        navigationController?.pushViewController(web, animated: true)
+        
+    }
     
 }

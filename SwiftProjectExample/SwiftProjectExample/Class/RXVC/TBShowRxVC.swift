@@ -11,14 +11,14 @@ import UIKit
 typealias singleData = (title :String ,url: String ,example : Bool)
 class TBShowRxVC: TBBaseVC {
     
-    var dataSource : Array <singleData> = [singleData("Observable介绍、创建可观察序列","https://www.jianshu.com/p/63f1681236fd",false)]
+    var dataSource : Array <singleData> = [singleData("Observable介绍、创建可观察序列","https://www.jianshu.com/p/63f1681236fd",false),singleData("Observable订阅、事件监听、订阅销毁","https://www.jianshu.com/p/4ce3f253dacd",false),singleData("观察者2： AnyObserver、Binder","https://www.jianshu.com/p/87a436448383",false)]
 
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "RX"
         view.addSubview(tableView)
         
-        navTitleRightBtn("test")
+       
         tableView.snp.makeConstraints { (make) in
             make.left.right.bottom.top.equalTo(self.view)
         }
@@ -64,16 +64,16 @@ extension TBShowRxVC :UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let model = dataSource[indexPath.row]
-        let web = TBWebViewVC.init(urlString: model.url)
-        navigationController?.pushViewController(web, animated: true)
+        if indexPath.row == 0 {
+            let test = TBTestRxVC()
+            test.model = model
+            navigationController?.pushViewController(test, animated: true)
+        }else if indexPath.row == 1{
+            let test = TBTest2RxVC()
+            test.model = model
+            navigationController?.pushViewController(test, animated: true)
+        }
     }
 }
 
-extension TBShowRxVC {
-    
-    override func rightBtnClick() {
-        let test = TBTestRxVC()
-        navigationController?.pushViewController(test, animated: true)
-    }
-    
-}
+
