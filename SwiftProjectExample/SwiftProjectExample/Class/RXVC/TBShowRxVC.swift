@@ -11,7 +11,7 @@ import UIKit
 typealias singleData = (title :String ,url: String ,example : Bool)
 class TBShowRxVC: TBBaseVC {
     
-    var dataSource : Array <singleData> = [singleData("Observable介绍、创建可观察序列","https://www.jianshu.com/p/63f1681236fd",false),singleData("Observable订阅、事件监听、订阅销毁","https://www.jianshu.com/p/4ce3f253dacd",false),singleData("观察者2： AnyObserver、Binder","https://www.jianshu.com/p/87a436448383",false)]
+    var dataSource : Array <singleData> = [singleData("参考资料1","https://www.jianshu.com/p/f61a5a988590",false),singleData("参考资料2","https://beeth0ven.github.io/RxSwift-Chinese-Documentation/",false),singleData("UILabel","",true),singleData("UITextFile","",true)]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -64,15 +64,26 @@ extension TBShowRxVC :UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let model = dataSource[indexPath.row]
-        if indexPath.row == 0 {
-            let test = TBTestRxVC()
-            test.model = model
-            navigationController?.pushViewController(test, animated: true)
-        }else if indexPath.row == 1{
-            let test = TBTest2RxVC()
-            test.model = model
-            navigationController?.pushViewController(test, animated: true)
+        
+        if model.example {
+            
+            if model.title == "UILabel"
+            {
+                let label = RXLabelVC()
+                navigationController?.pushViewController(label, animated: true)
+            }else if model.title == "UITextFile"
+            {
+                let textFile = RXTextFileVC()
+                navigationController?.pushViewController(textFile, animated: true)
+            }
+            
+            
+        }else{
+            let web = TBWebViewVC.init(urlString: model.url)
+            navigationController?.pushViewController(web, animated: true)
+            
         }
+        
     }
 }
 

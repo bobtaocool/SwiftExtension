@@ -9,16 +9,8 @@
 /* Begin PBXBuildFile section */
 		92E03793A648CE97F027357E /* Pods_SwiftProjectExampleQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A283276C33FA5E262EE31A6E /* Pods_SwiftProjectExampleQ.framework */; };
 		97CFE9DDE7730863B263AF8E /* Pods_SwiftProjectExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C761E024DB903D69B23E0930 /* Pods_SwiftProjectExample.framework */; };
-		C411C9F322FFBB1C0007A82D /* TBTest2RxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C411C9F222FFBB1C0007A82D /* TBTest2RxVC.swift */; };
-		C411C9F422FFBB1C0007A82D /* TBTest2RxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C411C9F222FFBB1C0007A82D /* TBTest2RxVC.swift */; };
 		C41AED9422FD0D6C004CDD8A /* TBWebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AED9322FD0D6C004CDD8A /* TBWebViewVC.swift */; };
 		C41AED9522FD0D6C004CDD8A /* TBWebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AED9322FD0D6C004CDD8A /* TBWebViewVC.swift */; };
-		C41AED9722FD6C4E004CDD8A /* TBTestRxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AED9622FD6C4E004CDD8A /* TBTestRxVC.swift */; };
-		C41AED9822FD6C4E004CDD8A /* TBTestRxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AED9622FD6C4E004CDD8A /* TBTestRxVC.swift */; };
-		C47BBA912301A44D002F460C /* TBTest3RxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47BBA8F2301A44C002F460C /* TBTest3RxVC.swift */; };
-		C47BBA922301A44D002F460C /* TBTest3RxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47BBA8F2301A44C002F460C /* TBTest3RxVC.swift */; };
-		C47BBA932301A44D002F460C /* TBTest4RxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47BBA902301A44D002F460C /* TBTest4RxVC.swift */; };
-		C47BBA942301A44D002F460C /* TBTest4RxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47BBA902301A44D002F460C /* TBTest4RxVC.swift */; };
 		C48E6E4522F80EB900AE7EEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E4422F80EB900AE7EEF /* AppDelegate.swift */; };
 		C48E6E4722F80EB900AE7EEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E4622F80EB900AE7EEF /* ViewController.swift */; };
 		C48E6E4A22F80EB900AE7EEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48E6E4822F80EB900AE7EEF /* Main.storyboard */; };
@@ -51,6 +43,10 @@
 		C48E6EA422FAAD7800AE7EEF /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6EA222FAAD7800AE7EEF /* UIColor+Extension.swift */; };
 		C48E6EA622FAC0E300AE7EEF /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6EA522FAC0E300AE7EEF /* UIView+Extension.swift */; };
 		C48E6EA722FAC0E300AE7EEF /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6EA522FAC0E300AE7EEF /* UIView+Extension.swift */; };
+		C4A382922303A1500035866C /* RXLabelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A382912303A1500035866C /* RXLabelVC.swift */; };
+		C4A382932303A1500035866C /* RXLabelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A382912303A1500035866C /* RXLabelVC.swift */; };
+		C4A382952303ADCE0035866C /* RXTextFileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A382942303ADCE0035866C /* RXTextFileVC.swift */; };
+		C4A382962303ADCE0035866C /* RXTextFileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A382942303ADCE0035866C /* RXTextFileVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,11 +58,7 @@
 		7CE5A756EFA7C4E05C3EA727 /* Pods-SwiftProjectExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectExample.release.xcconfig"; path = "Target Support Files/Pods-SwiftProjectExample/Pods-SwiftProjectExample.release.xcconfig"; sourceTree = "<group>"; };
 		A283276C33FA5E262EE31A6E /* Pods_SwiftProjectExampleQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProjectExampleQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BCE325872C21A411ED73AB /* Pods-SwiftProjectExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProjectExample/Pods-SwiftProjectExample.debug.xcconfig"; sourceTree = "<group>"; };
-		C411C9F222FFBB1C0007A82D /* TBTest2RxVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBTest2RxVC.swift; sourceTree = "<group>"; };
 		C41AED9322FD0D6C004CDD8A /* TBWebViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBWebViewVC.swift; sourceTree = "<group>"; };
-		C41AED9622FD6C4E004CDD8A /* TBTestRxVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBTestRxVC.swift; sourceTree = "<group>"; };
-		C47BBA8F2301A44C002F460C /* TBTest3RxVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBTest3RxVC.swift; sourceTree = "<group>"; };
-		C47BBA902301A44D002F460C /* TBTest4RxVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBTest4RxVC.swift; sourceTree = "<group>"; };
 		C48E6E4122F80EB900AE7EEF /* SwiftProjectExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProjectExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48E6E4422F80EB900AE7EEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C48E6E4622F80EB900AE7EEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +81,8 @@
 		C48E6E9F22FAAAFF00AE7EEF /* TBContansts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBContansts.swift; sourceTree = "<group>"; };
 		C48E6EA222FAAD7800AE7EEF /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		C48E6EA522FAC0E300AE7EEF /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		C4A382912303A1500035866C /* RXLabelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXLabelVC.swift; sourceTree = "<group>"; };
+		C4A382942303ADCE0035866C /* RXTextFileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXTextFileVC.swift; sourceTree = "<group>"; };
 		C761E024DB903D69B23E0930 /* Pods_SwiftProjectExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProjectExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACC2AC784151AAF9006CF6C /* Pods-SwiftProjectExampleQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectExampleQ.release.xcconfig"; path = "Target Support Files/Pods-SwiftProjectExampleQ/Pods-SwiftProjectExampleQ.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -250,10 +244,8 @@
 			children = (
 				C41AED9222FD0D1B004CDD8A /* View */,
 				C48E6E9622FA770700AE7EEF /* TBShowRxVC.swift */,
-				C41AED9622FD6C4E004CDD8A /* TBTestRxVC.swift */,
-				C411C9F222FFBB1C0007A82D /* TBTest2RxVC.swift */,
-				C47BBA8F2301A44C002F460C /* TBTest3RxVC.swift */,
-				C47BBA902301A44D002F460C /* TBTest4RxVC.swift */,
+				C4A382912303A1500035866C /* RXLabelVC.swift */,
+				C4A382942303ADCE0035866C /* RXTextFileVC.swift */,
 			);
 			path = RXVC;
 			sourceTree = "<group>";
@@ -459,24 +451,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4A382922303A1500035866C /* RXLabelVC.swift in Sources */,
 				C41AED9422FD0D6C004CDD8A /* TBWebViewVC.swift in Sources */,
 				C48E6E8322FA736500AE7EEF /* TBTabbarController.swift in Sources */,
 				C48E6EA622FAC0E300AE7EEF /* UIView+Extension.swift in Sources */,
 				C48E6EA022FAAAFF00AE7EEF /* TBContansts.swift in Sources */,
+				C4A382952303ADCE0035866C /* RXTextFileVC.swift in Sources */,
 				C48E6E9422FA76EF00AE7EEF /* TBShowJsonVC.swift in Sources */,
 				C48E6EA322FAAD7800AE7EEF /* UIColor+Extension.swift in Sources */,
-				C47BBA912301A44D002F460C /* TBTest3RxVC.swift in Sources */,
 				C48E6E9122FA76A200AE7EEF /* TBShowUIVC.swift in Sources */,
-				C411C9F322FFBB1C0007A82D /* TBTest2RxVC.swift in Sources */,
 				C48E6E4722F80EB900AE7EEF /* ViewController.swift in Sources */,
 				C48E6E9D22FA774400AE7EEF /* TBShowSQLVC.swift in Sources */,
-				C47BBA932301A44D002F460C /* TBTest4RxVC.swift in Sources */,
 				C48E6E9A22FA772600AE7EEF /* TBShowNetWorkingVC.swift in Sources */,
 				C48E6E4522F80EB900AE7EEF /* AppDelegate.swift in Sources */,
 				C48E6E9722FA770700AE7EEF /* TBShowRxVC.swift in Sources */,
 				C48E6E8E22FA75B900AE7EEF /* TBBaseNavVC.swift in Sources */,
 				C48E6E8B22FA758800AE7EEF /* TBBaseVC.swift in Sources */,
-				C41AED9722FD6C4E004CDD8A /* TBTestRxVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,24 +474,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4A382932303A1500035866C /* RXLabelVC.swift in Sources */,
 				C41AED9522FD0D6C004CDD8A /* TBWebViewVC.swift in Sources */,
 				C48E6E8422FA736500AE7EEF /* TBTabbarController.swift in Sources */,
 				C48E6EA722FAC0E300AE7EEF /* UIView+Extension.swift in Sources */,
 				C48E6EA122FAAAFF00AE7EEF /* TBContansts.swift in Sources */,
+				C4A382962303ADCE0035866C /* RXTextFileVC.swift in Sources */,
 				C48E6E9522FA76EF00AE7EEF /* TBShowJsonVC.swift in Sources */,
 				C48E6EA422FAAD7800AE7EEF /* UIColor+Extension.swift in Sources */,
-				C47BBA922301A44D002F460C /* TBTest3RxVC.swift in Sources */,
 				C48E6E9222FA76A200AE7EEF /* TBShowUIVC.swift in Sources */,
-				C411C9F422FFBB1C0007A82D /* TBTest2RxVC.swift in Sources */,
 				C48E6E6822F80FEF00AE7EEF /* ViewController.swift in Sources */,
 				C48E6E9E22FA774400AE7EEF /* TBShowSQLVC.swift in Sources */,
-				C47BBA942301A44D002F460C /* TBTest4RxVC.swift in Sources */,
 				C48E6E9B22FA772600AE7EEF /* TBShowNetWorkingVC.swift in Sources */,
 				C48E6E6922F80FEF00AE7EEF /* AppDelegate.swift in Sources */,
 				C48E6E9822FA770700AE7EEF /* TBShowRxVC.swift in Sources */,
 				C48E6E8F22FA75B900AE7EEF /* TBBaseNavVC.swift in Sources */,
 				C48E6E8C22FA758800AE7EEF /* TBBaseVC.swift in Sources */,
-				C41AED9822FD6C4E004CDD8A /* TBTestRxVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,7 +569,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -637,7 +625,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -655,11 +643,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58UK378632;
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftProjectExample/SwiftProjectExample.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bobtao.SwiftProjectExample;
+				PRODUCT_BUNDLE_IDENTIFIER = bob.SwiftProjectExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -674,11 +663,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58UK378632;
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftProjectExample/SwiftProjectExample.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bobtao.SwiftProjectExample;
+				PRODUCT_BUNDLE_IDENTIFIER = bob.SwiftProjectExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -690,6 +680,7 @@
 			baseConfigurationReference = 019F5CD53C8728496D0DB0FE /* Pods-SwiftProjectExampleQ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58UK378632;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -703,8 +694,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bobtao.SwiftProjectExampleQ;
+				PRODUCT_BUNDLE_IDENTIFIER = bob.SwiftProjectExampleQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -715,6 +707,7 @@
 			baseConfigurationReference = EACC2AC784151AAF9006CF6C /* Pods-SwiftProjectExampleQ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58UK378632;
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftProjectExampleQ.plist";
@@ -723,8 +716,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bobtao.SwiftProjectExampleQ;
+				PRODUCT_BUNDLE_IDENTIFIER = bob.SwiftProjectExampleQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
