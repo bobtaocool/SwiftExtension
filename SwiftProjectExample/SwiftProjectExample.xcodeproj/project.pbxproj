@@ -47,6 +47,10 @@
 		C4A382932303A1500035866C /* RXLabelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A382912303A1500035866C /* RXLabelVC.swift */; };
 		C4A382952303ADCE0035866C /* RXTextFileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A382942303ADCE0035866C /* RXTextFileVC.swift */; };
 		C4A382962303ADCE0035866C /* RXTextFileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A382942303ADCE0035866C /* RXTextFileVC.swift */; };
+		C4A4D7262305505000E7F759 /* RXButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D7252305505000E7F759 /* RXButtonVC.swift */; };
+		C4A4D7272305505000E7F759 /* RXButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D7252305505000E7F759 /* RXButtonVC.swift */; };
+		C4A4D72923058C7E00E7F759 /* RXSwitchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D72823058C7E00E7F759 /* RXSwitchVC.swift */; };
+		C4A4D72A23058C7E00E7F759 /* RXSwitchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D72823058C7E00E7F759 /* RXSwitchVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +87,8 @@
 		C48E6EA522FAC0E300AE7EEF /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		C4A382912303A1500035866C /* RXLabelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXLabelVC.swift; sourceTree = "<group>"; };
 		C4A382942303ADCE0035866C /* RXTextFileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXTextFileVC.swift; sourceTree = "<group>"; };
+		C4A4D7252305505000E7F759 /* RXButtonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXButtonVC.swift; sourceTree = "<group>"; };
+		C4A4D72823058C7E00E7F759 /* RXSwitchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXSwitchVC.swift; sourceTree = "<group>"; };
 		C761E024DB903D69B23E0930 /* Pods_SwiftProjectExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProjectExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACC2AC784151AAF9006CF6C /* Pods-SwiftProjectExampleQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectExampleQ.release.xcconfig"; path = "Target Support Files/Pods-SwiftProjectExampleQ/Pods-SwiftProjectExampleQ.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -246,6 +252,8 @@
 				C48E6E9622FA770700AE7EEF /* TBShowRxVC.swift */,
 				C4A382912303A1500035866C /* RXLabelVC.swift */,
 				C4A382942303ADCE0035866C /* RXTextFileVC.swift */,
+				C4A4D7252305505000E7F759 /* RXButtonVC.swift */,
+				C4A4D72823058C7E00E7F759 /* RXSwitchVC.swift */,
 			);
 			path = RXVC;
 			sourceTree = "<group>";
@@ -458,6 +466,7 @@
 				C48E6EA022FAAAFF00AE7EEF /* TBContansts.swift in Sources */,
 				C4A382952303ADCE0035866C /* RXTextFileVC.swift in Sources */,
 				C48E6E9422FA76EF00AE7EEF /* TBShowJsonVC.swift in Sources */,
+				C4A4D7262305505000E7F759 /* RXButtonVC.swift in Sources */,
 				C48E6EA322FAAD7800AE7EEF /* UIColor+Extension.swift in Sources */,
 				C48E6E9122FA76A200AE7EEF /* TBShowUIVC.swift in Sources */,
 				C48E6E4722F80EB900AE7EEF /* ViewController.swift in Sources */,
@@ -466,6 +475,7 @@
 				C48E6E4522F80EB900AE7EEF /* AppDelegate.swift in Sources */,
 				C48E6E9722FA770700AE7EEF /* TBShowRxVC.swift in Sources */,
 				C48E6E8E22FA75B900AE7EEF /* TBBaseNavVC.swift in Sources */,
+				C4A4D72923058C7E00E7F759 /* RXSwitchVC.swift in Sources */,
 				C48E6E8B22FA758800AE7EEF /* TBBaseVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,6 +491,7 @@
 				C48E6EA122FAAAFF00AE7EEF /* TBContansts.swift in Sources */,
 				C4A382962303ADCE0035866C /* RXTextFileVC.swift in Sources */,
 				C48E6E9522FA76EF00AE7EEF /* TBShowJsonVC.swift in Sources */,
+				C4A4D7272305505000E7F759 /* RXButtonVC.swift in Sources */,
 				C48E6EA422FAAD7800AE7EEF /* UIColor+Extension.swift in Sources */,
 				C48E6E9222FA76A200AE7EEF /* TBShowUIVC.swift in Sources */,
 				C48E6E6822F80FEF00AE7EEF /* ViewController.swift in Sources */,
@@ -489,6 +500,7 @@
 				C48E6E6922F80FEF00AE7EEF /* AppDelegate.swift in Sources */,
 				C48E6E9822FA770700AE7EEF /* TBShowRxVC.swift in Sources */,
 				C48E6E8F22FA75B900AE7EEF /* TBBaseNavVC.swift in Sources */,
+				C4A4D72A23058C7E00E7F759 /* RXSwitchVC.swift in Sources */,
 				C48E6E8C22FA758800AE7EEF /* TBBaseVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

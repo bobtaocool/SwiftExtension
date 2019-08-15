@@ -11,7 +11,7 @@ import UIKit
 typealias singleData = (title :String ,url: String ,example : Bool)
 class TBShowRxVC: TBBaseVC {
     
-    var dataSource : Array <singleData> = [singleData("参考资料1","https://www.jianshu.com/p/f61a5a988590",false),singleData("参考资料2","https://beeth0ven.github.io/RxSwift-Chinese-Documentation/",false),singleData("UILabel","",true),singleData("UITextFile","",true)]
+    var dataSource : Array <singleData> = [singleData("参考资料1","https://www.jianshu.com/p/f61a5a988590",false),singleData("参考资料2","https://beeth0ven.github.io/RxSwift-Chinese-Documentation/",false),singleData("UILabel","",true),singleData("UITextFile","",true),singleData("UIButton","",true),singleData("UISwitch","",true)]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -75,9 +75,15 @@ extension TBShowRxVC :UITableViewDataSource {
             {
                 let textFile = RXTextFileVC()
                 navigationController?.pushViewController(textFile, animated: true)
+            }else if model.title == "UIButton"
+            {
+                let button = RXButtonVC()
+                navigationController?.pushViewController(button, animated: true)
+            }else if model.title == "UISwitch"
+            {
+                let swi = RXSwitchVC()
+                navigationController?.pushViewController(swi, animated: true)
             }
-            
-            
         }else{
             let web = TBWebViewVC.init(urlString: model.url)
             navigationController?.pushViewController(web, animated: true)
