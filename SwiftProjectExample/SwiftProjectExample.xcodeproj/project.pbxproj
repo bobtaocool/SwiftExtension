@@ -51,6 +51,22 @@
 		C4A4D7272305505000E7F759 /* RXButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D7252305505000E7F759 /* RXButtonVC.swift */; };
 		C4A4D72923058C7E00E7F759 /* RXSwitchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D72823058C7E00E7F759 /* RXSwitchVC.swift */; };
 		C4A4D72A23058C7E00E7F759 /* RXSwitchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D72823058C7E00E7F759 /* RXSwitchVC.swift */; };
+		C4A4D72C2306536F00E7F759 /* RXActivityIndicatorViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D72B2306536F00E7F759 /* RXActivityIndicatorViewVC.swift */; };
+		C4A4D72D2306536F00E7F759 /* RXActivityIndicatorViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D72B2306536F00E7F759 /* RXActivityIndicatorViewVC.swift */; };
+		C4A4D7322306590B00E7F759 /* RXMvvmOneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D7302306590B00E7F759 /* RXMvvmOneVC.swift */; };
+		C4A4D7332306590B00E7F759 /* RXMvvmOneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D7302306590B00E7F759 /* RXMvvmOneVC.swift */; };
+		C4A4D7342306590B00E7F759 /* RXMvvmOneVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4A4D7312306590B00E7F759 /* RXMvvmOneVC.xib */; };
+		C4A4D7352306590B00E7F759 /* RXMvvmOneVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4A4D7312306590B00E7F759 /* RXMvvmOneVC.xib */; };
+		C4A4D737230682DC00E7F759 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D736230682DC00E7F759 /* Operators.swift */; };
+		C4A4D738230682DC00E7F759 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D736230682DC00E7F759 /* Operators.swift */; };
+		C4A4D73A230685EF00E7F759 /* RXTapGesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D739230685EF00E7F759 /* RXTapGesVC.swift */; };
+		C4A4D73B230685EF00E7F759 /* RXTapGesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D739230685EF00E7F759 /* RXTapGesVC.swift */; };
+		C4A4D73D2306971100E7F759 /* RXDatePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D73C2306971100E7F759 /* RXDatePickerVC.swift */; };
+		C4A4D73E2306971100E7F759 /* RXDatePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D73C2306971100E7F759 /* RXDatePickerVC.swift */; };
+		C4A4D74023069D8F00E7F759 /* RXTableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D73F23069D8F00E7F759 /* RXTableViewVC.swift */; };
+		C4A4D74123069D8F00E7F759 /* RXTableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D73F23069D8F00E7F759 /* RXTableViewVC.swift */; };
+		C4A4D7432306A55F00E7F759 /* RXTableDataSourceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D7422306A55F00E7F759 /* RXTableDataSourceVC.swift */; };
+		C4A4D7442306A55F00E7F759 /* RXTableDataSourceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D7422306A55F00E7F759 /* RXTableDataSourceVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +105,14 @@
 		C4A382942303ADCE0035866C /* RXTextFileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXTextFileVC.swift; sourceTree = "<group>"; };
 		C4A4D7252305505000E7F759 /* RXButtonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXButtonVC.swift; sourceTree = "<group>"; };
 		C4A4D72823058C7E00E7F759 /* RXSwitchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXSwitchVC.swift; sourceTree = "<group>"; };
+		C4A4D72B2306536F00E7F759 /* RXActivityIndicatorViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXActivityIndicatorViewVC.swift; sourceTree = "<group>"; };
+		C4A4D7302306590B00E7F759 /* RXMvvmOneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXMvvmOneVC.swift; sourceTree = "<group>"; };
+		C4A4D7312306590B00E7F759 /* RXMvvmOneVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RXMvvmOneVC.xib; sourceTree = "<group>"; };
+		C4A4D736230682DC00E7F759 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		C4A4D739230685EF00E7F759 /* RXTapGesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXTapGesVC.swift; sourceTree = "<group>"; };
+		C4A4D73C2306971100E7F759 /* RXDatePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXDatePickerVC.swift; sourceTree = "<group>"; };
+		C4A4D73F23069D8F00E7F759 /* RXTableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXTableViewVC.swift; sourceTree = "<group>"; };
+		C4A4D7422306A55F00E7F759 /* RXTableDataSourceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXTableDataSourceVC.swift; sourceTree = "<group>"; };
 		C761E024DB903D69B23E0930 /* Pods_SwiftProjectExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProjectExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACC2AC784151AAF9006CF6C /* Pods-SwiftProjectExampleQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectExampleQ.release.xcconfig"; path = "Target Support Files/Pods-SwiftProjectExampleQ/Pods-SwiftProjectExampleQ.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -248,12 +272,9 @@
 		C48E6E8722FA73B600AE7EEF /* RXVC */ = {
 			isa = PBXGroup;
 			children = (
+				C4A4D72F230658B500E7F759 /* MVVM */,
+				C4A4D72E2306589A00E7F759 /* UIVC */,
 				C41AED9222FD0D1B004CDD8A /* View */,
-				C48E6E9622FA770700AE7EEF /* TBShowRxVC.swift */,
-				C4A382912303A1500035866C /* RXLabelVC.swift */,
-				C4A382942303ADCE0035866C /* RXTextFileVC.swift */,
-				C4A4D7252305505000E7F759 /* RXButtonVC.swift */,
-				C4A4D72823058C7E00E7F759 /* RXSwitchVC.swift */,
 			);
 			path = RXVC;
 			sourceTree = "<group>";
@@ -272,6 +293,33 @@
 				C48E6E9C22FA774400AE7EEF /* TBShowSQLVC.swift */,
 			);
 			path = SQLVC;
+			sourceTree = "<group>";
+		};
+		C4A4D72E2306589A00E7F759 /* UIVC */ = {
+			isa = PBXGroup;
+			children = (
+				C48E6E9622FA770700AE7EEF /* TBShowRxVC.swift */,
+				C4A382912303A1500035866C /* RXLabelVC.swift */,
+				C4A382942303ADCE0035866C /* RXTextFileVC.swift */,
+				C4A4D7252305505000E7F759 /* RXButtonVC.swift */,
+				C4A4D72823058C7E00E7F759 /* RXSwitchVC.swift */,
+				C4A4D72B2306536F00E7F759 /* RXActivityIndicatorViewVC.swift */,
+				C4A4D739230685EF00E7F759 /* RXTapGesVC.swift */,
+				C4A4D73C2306971100E7F759 /* RXDatePickerVC.swift */,
+				C4A4D73F23069D8F00E7F759 /* RXTableViewVC.swift */,
+				C4A4D7422306A55F00E7F759 /* RXTableDataSourceVC.swift */,
+			);
+			path = UIVC;
+			sourceTree = "<group>";
+		};
+		C4A4D72F230658B500E7F759 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				C4A4D736230682DC00E7F759 /* Operators.swift */,
+				C4A4D7302306590B00E7F759 /* RXMvvmOneVC.swift */,
+				C4A4D7312306590B00E7F759 /* RXMvvmOneVC.xib */,
+			);
+			path = MVVM;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,6 +406,7 @@
 				C48E6E4F22F80EBE00AE7EEF /* LaunchScreen.storyboard in Resources */,
 				C48E6E4C22F80EBE00AE7EEF /* Assets.xcassets in Resources */,
 				C48E6E4A22F80EB900AE7EEF /* Main.storyboard in Resources */,
+				C4A4D7342306590B00E7F759 /* RXMvvmOneVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +417,7 @@
 				C48E6E6C22F80FEF00AE7EEF /* LaunchScreen.storyboard in Resources */,
 				C48E6E6D22F80FEF00AE7EEF /* Assets.xcassets in Resources */,
 				C48E6E6E22F80FEF00AE7EEF /* Main.storyboard in Resources */,
+				C4A4D7352306590B00E7F759 /* RXMvvmOneVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,23 +510,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4A382922303A1500035866C /* RXLabelVC.swift in Sources */,
+				C4A4D73D2306971100E7F759 /* RXDatePickerVC.swift in Sources */,
 				C41AED9422FD0D6C004CDD8A /* TBWebViewVC.swift in Sources */,
+				C4A4D7432306A55F00E7F759 /* RXTableDataSourceVC.swift in Sources */,
+				C4A4D737230682DC00E7F759 /* Operators.swift in Sources */,
 				C48E6E8322FA736500AE7EEF /* TBTabbarController.swift in Sources */,
 				C48E6EA622FAC0E300AE7EEF /* UIView+Extension.swift in Sources */,
 				C48E6EA022FAAAFF00AE7EEF /* TBContansts.swift in Sources */,
 				C4A382952303ADCE0035866C /* RXTextFileVC.swift in Sources */,
+				C4A4D72C2306536F00E7F759 /* RXActivityIndicatorViewVC.swift in Sources */,
 				C48E6E9422FA76EF00AE7EEF /* TBShowJsonVC.swift in Sources */,
 				C4A4D7262305505000E7F759 /* RXButtonVC.swift in Sources */,
 				C48E6EA322FAAD7800AE7EEF /* UIColor+Extension.swift in Sources */,
+				C4A4D74023069D8F00E7F759 /* RXTableViewVC.swift in Sources */,
 				C48E6E9122FA76A200AE7EEF /* TBShowUIVC.swift in Sources */,
 				C48E6E4722F80EB900AE7EEF /* ViewController.swift in Sources */,
 				C48E6E9D22FA774400AE7EEF /* TBShowSQLVC.swift in Sources */,
 				C48E6E9A22FA772600AE7EEF /* TBShowNetWorkingVC.swift in Sources */,
 				C48E6E4522F80EB900AE7EEF /* AppDelegate.swift in Sources */,
+				C4A4D73A230685EF00E7F759 /* RXTapGesVC.swift in Sources */,
 				C48E6E9722FA770700AE7EEF /* TBShowRxVC.swift in Sources */,
 				C48E6E8E22FA75B900AE7EEF /* TBBaseNavVC.swift in Sources */,
 				C4A4D72923058C7E00E7F759 /* RXSwitchVC.swift in Sources */,
 				C48E6E8B22FA758800AE7EEF /* TBBaseVC.swift in Sources */,
+				C4A4D7322306590B00E7F759 /* RXMvvmOneVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,23 +542,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4A382932303A1500035866C /* RXLabelVC.swift in Sources */,
+				C4A4D73E2306971100E7F759 /* RXDatePickerVC.swift in Sources */,
 				C41AED9522FD0D6C004CDD8A /* TBWebViewVC.swift in Sources */,
+				C4A4D7442306A55F00E7F759 /* RXTableDataSourceVC.swift in Sources */,
+				C4A4D738230682DC00E7F759 /* Operators.swift in Sources */,
 				C48E6E8422FA736500AE7EEF /* TBTabbarController.swift in Sources */,
 				C48E6EA722FAC0E300AE7EEF /* UIView+Extension.swift in Sources */,
 				C48E6EA122FAAAFF00AE7EEF /* TBContansts.swift in Sources */,
 				C4A382962303ADCE0035866C /* RXTextFileVC.swift in Sources */,
+				C4A4D72D2306536F00E7F759 /* RXActivityIndicatorViewVC.swift in Sources */,
 				C48E6E9522FA76EF00AE7EEF /* TBShowJsonVC.swift in Sources */,
 				C4A4D7272305505000E7F759 /* RXButtonVC.swift in Sources */,
 				C48E6EA422FAAD7800AE7EEF /* UIColor+Extension.swift in Sources */,
+				C4A4D74123069D8F00E7F759 /* RXTableViewVC.swift in Sources */,
 				C48E6E9222FA76A200AE7EEF /* TBShowUIVC.swift in Sources */,
 				C48E6E6822F80FEF00AE7EEF /* ViewController.swift in Sources */,
 				C48E6E9E22FA774400AE7EEF /* TBShowSQLVC.swift in Sources */,
 				C48E6E9B22FA772600AE7EEF /* TBShowNetWorkingVC.swift in Sources */,
 				C48E6E6922F80FEF00AE7EEF /* AppDelegate.swift in Sources */,
+				C4A4D73B230685EF00E7F759 /* RXTapGesVC.swift in Sources */,
 				C48E6E9822FA770700AE7EEF /* TBShowRxVC.swift in Sources */,
 				C48E6E8F22FA75B900AE7EEF /* TBBaseNavVC.swift in Sources */,
 				C4A4D72A23058C7E00E7F759 /* RXSwitchVC.swift in Sources */,
 				C48E6E8C22FA758800AE7EEF /* TBBaseVC.swift in Sources */,
+				C4A4D7332306590B00E7F759 /* RXMvvmOneVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

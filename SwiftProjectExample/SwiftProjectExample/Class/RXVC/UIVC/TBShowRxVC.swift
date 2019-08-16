@@ -11,7 +11,7 @@ import UIKit
 typealias singleData = (title :String ,url: String ,example : Bool)
 class TBShowRxVC: TBBaseVC {
     
-    var dataSource : Array <singleData> = [singleData("参考资料1","https://www.jianshu.com/p/f61a5a988590",false),singleData("参考资料2","https://beeth0ven.github.io/RxSwift-Chinese-Documentation/",false),singleData("UILabel","",true),singleData("UITextFile","",true),singleData("UIButton","",true),singleData("UISwitch","",true)]
+    var dataSource : Array <singleData> = [singleData("参考资料1","https://www.jianshu.com/p/f61a5a988590",false),singleData("参考资料2","https://beeth0ven.github.io/RxSwift-Chinese-Documentation/",false),singleData("UILabel","",true),singleData("UITextFile","",true),singleData("UIButton","",true),singleData("UISwitch","",true),singleData("UIActivityIndicatorView","",true),singleData("MVVM1","",true),singleData("UIGestureRecognizer","",true),singleData("UIDatePicker","",true),singleData("UITableView","",true),singleData("UITableViewDataSource","",true)]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -83,6 +83,30 @@ extension TBShowRxVC :UITableViewDataSource {
             {
                 let swi = RXSwitchVC()
                 navigationController?.pushViewController(swi, animated: true)
+            }else if model.title == "UIActivityIndicatorView"
+            {
+                let act = RXActivityIndicatorViewVC()
+                navigationController?.pushViewController(act, animated: true)
+            }else if model.title == "MVVM1"
+            {
+                let mvvm1 = RXMvvmOneVC()
+                navigationController?.pushViewController(mvvm1, animated: true)
+            }else if model.title == "UIGestureRecognizer"
+            {
+                let tap = RXTapGesVC()
+                navigationController?.pushViewController(tap, animated: true)
+            }else if model.title == "UIDatePicker"
+            {
+                let pick = RXDatePickerVC()
+                navigationController?.pushViewController(pick, animated: true)
+            }else if model.title == "UITableView"
+            {
+                let tab = RXTableViewVC()
+                navigationController?.pushViewController(tab, animated: true)
+            }else if model.title == "UITableViewDataSource"
+            {
+                let tab = RXTableDataSourceVC()
+                navigationController?.pushViewController(tab, animated: true)
             }
         }else{
             let web = TBWebViewVC.init(urlString: model.url)
