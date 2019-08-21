@@ -7,24 +7,51 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
+import RxDataSources
 
 class TBShowNetWorkingVC: TBBaseVC {
-
+    
+    let disposeBag = DisposeBag()
+    lazy var tableView: UITableView = {
+        let tableView = UITableView(frame: .zero, style: .plain)
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        return tableView
+    }()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "NET"
-        // Do any additional setup after loading the view.
+        view.addSubview(self.tableView)
+        
+        tableView.snp.makeConstraints { (make) in
+            make.edges.equalTo(self.view)
+        }
+        
+        let items  = Observable.just([SectionModel(model: "Moya", items: ["req-1","req-2","upload-0","upload-1","upload-2","down-1","down-2"]),
+                                                       SectionModel(model: "rxala",items: ["1","2"])])
+        let dataSource = RxTableViewSectionedReloadDataSource<SectionModel<String ,String>>.init(configureCell:{(dataSource, tv, index, ele) in
+            let cell = tv.dequeueReusableCell(withIdentifier: "cell")!
+            cell.textLabel?.text = "\(ele)"
+            return cell
+        })
+        
+        dataSource.titleForHeaderInSection = {ds,index in
+            return ds.sectionModels[index].model
+        }
+        
+        items.bind(to: self.tableView.rx.items(dataSource: dataSource)).disposed(by: disposeBag)
+        
+        tableView.rx.itemSelected.subscribe(onNext: { (index) in
+            if index.section == 0 {
+                let vc:MoyaVC = MoyaVC()
+                vc.moyatype = moya_type(rawValue: index.row)!
+                self.navigationController?.pushViewController(vc, animated: true)
+            }
+            
+        }).disposed(by: disposeBag)
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

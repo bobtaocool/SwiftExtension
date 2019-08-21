@@ -23,7 +23,10 @@ class TBTabbarController: UITabBarController {
         netVC.setContents(title: "net", defalutImageName: "net", selectedImageName: "net-selected")
         let sqlVC = TBBaseNavVC(rootViewController: TBShowSQLVC())
         sqlVC.setContents(title: "sql", defalutImageName: "sql", selectedImageName: "sql-selected")
-        self.setViewControllers([uiNav,jsonNav,rxNav,netVC,sqlVC], animated: true)
+        let thirdVC = TBBaseNavVC(rootViewController: TBPromiseKitVC())
+        thirdVC.setContents(title: "thirdVC", defalutImageName: "sql", selectedImageName: "sql-selected")
+        
+        self.setViewControllers([uiNav,jsonNav,rxNav,netVC,sqlVC,thirdVC], animated: true)
         
         self.tabBar.tintColor = UIColor.red;
         self.tabBar.barTintColor = UIColor.white;
