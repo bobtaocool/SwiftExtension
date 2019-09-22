@@ -44,7 +44,7 @@ class LocationTool: NSObject,CLLocationManagerDelegate {
     ///   - coordinateCallBack: 经纬度
     func getUserCoordinate(_ coordinateCallBack: @escaping (_ coordinate : CLLocationCoordinate2D?) -> (), _ addressCallBack:@escaping (_ Placemark : CLPlacemark?) -> ()) {
         guard CLLocationManager.locationServicesEnabled() else {
-            JHProgressHUD.ShowMessage(text: "定位服务当前可能尚未打开，请设置打开！")
+//            .ShowMessage(text: "定位服务当前可能尚未打开，请设置打开！")
             return
         }
         self.locationManager.requestWhenInUseAuthorization()

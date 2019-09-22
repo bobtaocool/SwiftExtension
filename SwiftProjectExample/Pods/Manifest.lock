@@ -1,6 +1,6 @@
 PODS:
-  - Alamofire (4.8.2)
-  - AlamofireObjectMapper (5.2.0):
+  - Alamofire (4.9.0)
+  - AlamofireObjectMapper (5.2.1):
     - Alamofire (~> 4.7)
     - ObjectMapper (~> 3.4)
   - Differentiator (4.0.1)
@@ -12,14 +12,14 @@ PODS:
     - Alamofire (~> 4.1)
     - Result (~> 4.1)
   - ObjectMapper (3.5.1)
-  - PromiseKit (6.10.0):
-    - PromiseKit/CorePromise (= 6.10.0)
-    - PromiseKit/Foundation (= 6.10.0)
-    - PromiseKit/UIKit (= 6.10.0)
-  - PromiseKit/CorePromise (6.10.0)
-  - PromiseKit/Foundation (6.10.0):
+  - PromiseKit (6.11.0):
+    - PromiseKit/CorePromise (= 6.11.0)
+    - PromiseKit/Foundation (= 6.11.0)
+    - PromiseKit/UIKit (= 6.11.0)
+  - PromiseKit/CorePromise (6.11.0)
+  - PromiseKit/Foundation (6.11.0):
     - PromiseKit/CorePromise
-  - PromiseKit/UIKit (6.10.0):
+  - PromiseKit/UIKit (6.11.0):
     - PromiseKit/CorePromise
   - Result (4.1.0)
   - RxAlamofire (5.0.0):
@@ -42,7 +42,7 @@ PODS:
     - SQLite.swift/standard (= 0.12.2)
   - SQLite.swift/standard (0.12.2)
   - SVProgressHUD (2.2.5)
-  - SwiftDate (6.0.3)
+  - SwiftDate (6.1.0)
   - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
@@ -85,14 +85,14 @@ SPEC REPOS:
     - SwiftyJSON
 
 SPEC CHECKSUMS:
-  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
-  AlamofireObjectMapper: 92b6ce2423a9d159e686f6a1d514a009bf903ddc
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
   Differentiator: 886080237d9f87f322641dedbc5be257061b0602
   HandyJSON: 992f2d661716d6a91de82d0056927bc7813b5770
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
   ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
-  PromiseKit: 1fdaeb6c0a94a5114fcb814ff3d772b86886ad4e
+  PromiseKit: e4863d06976e7dee5e41c04fc7371c16b3600292
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   RxAlamofire: e7875a012aff55345672d0f70a2a9cd6aeb0f211
   RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
@@ -102,7 +102,7 @@ SPEC CHECKSUMS:
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
-  SwiftDate: 8d4f14bf1ef68e95094511504856547bf9e3e1a6
+  SwiftDate: fa2bb3962056bb44047b4b85a30044e5eae30b03
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
 PODFILE CHECKSUM: b90444cd24c27aeb1238799383f860d6d8daa1b1

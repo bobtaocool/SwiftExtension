@@ -59,9 +59,9 @@ extension ServiceManager {
     ///开启权限
     func TurnOnServeManager() {
         if #available(iOS 10.0, *) {
-            UIApplication.shared.open(URL.init(string: UIApplicationOpenSettingsURLString)!, options: [String:Any](), completionHandler: nil)
+            UIApplication.shared.open(URL.init(string: UIApplication.openSettingsURLString)!, options: [:], completionHandler: nil)
         } else {
-            UIApplication.shared.openURL(URL.init(string: UIApplicationOpenSettingsURLString)!)
+            UIApplication.shared.openURL(URL.init(string: UIApplication.openSettingsURLString)!)
         }
     }
     
