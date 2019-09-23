@@ -15,8 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        let rootVC = TBTabbarController()
-        window?.rootViewController = rootVC
+//        let rootVC = TBTabbarController()
+//        window?.rootViewController = rootVC
+        window?.backgroundColor = .white
+        let login = TBLoginVC()
+        let nav = TBBaseNavVC.init(rootViewController: login)
+        window?.rootViewController = nav
         return true
     }
 

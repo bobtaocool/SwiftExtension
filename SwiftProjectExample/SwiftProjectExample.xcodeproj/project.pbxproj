@@ -43,6 +43,10 @@
 		C48E6EA422FAAD7800AE7EEF /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6EA222FAAD7800AE7EEF /* UIColor+Extension.swift */; };
 		C48E6EA622FAC0E300AE7EEF /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6EA522FAC0E300AE7EEF /* UIView+Extension.swift */; };
 		C48E6EA722FAC0E300AE7EEF /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6EA522FAC0E300AE7EEF /* UIView+Extension.swift */; };
+		C4A03FA0230FD6C400F5D5FE /* GitHubMVVMVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A03F9F230FD6C400F5D5FE /* GitHubMVVMVC.swift */; };
+		C4A03FA1230FD6C400F5D5FE /* GitHubMVVMVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A03F9F230FD6C400F5D5FE /* GitHubMVVMVC.swift */; };
+		C4A03FA723150F7400F5D5FE /* TBLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A03FA623150F7400F5D5FE /* TBLoginVC.swift */; };
+		C4A03FA823150F7400F5D5FE /* TBLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A03FA623150F7400F5D5FE /* TBLoginVC.swift */; };
 		C4A382922303A1500035866C /* RXLabelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A382912303A1500035866C /* RXLabelVC.swift */; };
 		C4A382932303A1500035866C /* RXLabelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A382912303A1500035866C /* RXLabelVC.swift */; };
 		C4A382952303ADCE0035866C /* RXTextFileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A382942303ADCE0035866C /* RXTextFileVC.swift */; };
@@ -101,6 +105,12 @@
 		C4A4D77E230D2E6400E7F759 /* LocationTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D77C230D2E6400E7F759 /* LocationTool.swift */; };
 		C4A4D780230D2ED000E7F759 /* JHRegularHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D77F230D2ED000E7F759 /* JHRegularHelp.swift */; };
 		C4A4D781230D2ED000E7F759 /* JHRegularHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D77F230D2ED000E7F759 /* JHRegularHelp.swift */; };
+		C4A4D783230E37FF00E7F759 /*  GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D782230E37FF00E7F759 /*  GitHubAPI.swift */; };
+		C4A4D784230E37FF00E7F759 /*  GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D782230E37FF00E7F759 /*  GitHubAPI.swift */; };
+		C4A4D786230E419900E7F759 /* GitHubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D785230E419900E7F759 /* GitHubModel.swift */; };
+		C4A4D787230E419900E7F759 /* GitHubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D785230E419900E7F759 /* GitHubModel.swift */; };
+		C4A4D789230E447F00E7F759 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D788230E447F00E7F759 /* ViewModel.swift */; };
+		C4A4D78A230E447F00E7F759 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4D788230E447F00E7F759 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -135,6 +145,8 @@
 		C48E6E9F22FAAAFF00AE7EEF /* TBContansts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBContansts.swift; sourceTree = "<group>"; };
 		C48E6EA222FAAD7800AE7EEF /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		C48E6EA522FAC0E300AE7EEF /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		C4A03F9F230FD6C400F5D5FE /* GitHubMVVMVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubMVVMVC.swift; sourceTree = "<group>"; };
+		C4A03FA623150F7400F5D5FE /* TBLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBLoginVC.swift; sourceTree = "<group>"; };
 		C4A382912303A1500035866C /* RXLabelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXLabelVC.swift; sourceTree = "<group>"; };
 		C4A382942303ADCE0035866C /* RXTextFileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXTextFileVC.swift; sourceTree = "<group>"; };
 		C4A4D7252305505000E7F759 /* RXButtonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXButtonVC.swift; sourceTree = "<group>"; };
@@ -164,6 +176,9 @@
 		C4A4D779230D2E2400E7F759 /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
 		C4A4D77C230D2E6400E7F759 /* LocationTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTool.swift; sourceTree = "<group>"; };
 		C4A4D77F230D2ED000E7F759 /* JHRegularHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHRegularHelp.swift; sourceTree = "<group>"; };
+		C4A4D782230E37FF00E7F759 /*  GitHubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " GitHubAPI.swift"; sourceTree = "<group>"; };
+		C4A4D785230E419900E7F759 /* GitHubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubModel.swift; sourceTree = "<group>"; };
+		C4A4D788230E447F00E7F759 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		C761E024DB903D69B23E0930 /* Pods_SwiftProjectExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProjectExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACC2AC784151AAF9006CF6C /* Pods-SwiftProjectExampleQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectExampleQ.release.xcconfig"; path = "Target Support Files/Pods-SwiftProjectExampleQ/Pods-SwiftProjectExampleQ.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -258,12 +273,8 @@
 		C48E6E7D22FA725900AE7EEF /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				C4A4D766230BF25500E7F759 /* Thirds */,
-				C48E6E8922FA73D400AE7EEF /* SQLVC */,
-				C48E6E8822FA73CA00AE7EEF /* NETVC */,
-				C48E6E8722FA73B600AE7EEF /* RXVC */,
-				C48E6E8622FA73AC00AE7EEF /* JSONVC */,
-				C48E6E8522FA73A000AE7EEF /* UIVC */,
+				C4A03FA323150EDB00F5D5FE /* Test */,
+				C4A03FA223150EB900F5D5FE /* Example */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -357,6 +368,43 @@
 			path = SQLVC;
 			sourceTree = "<group>";
 		};
+		C4A03FA223150EB900F5D5FE /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				C4A03FA523150F1B00F5D5FE /* MainVC */,
+				C4A03FA423150F0B00F5D5FE /* LoginVC */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		C4A03FA323150EDB00F5D5FE /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				C4A4D766230BF25500E7F759 /* Thirds */,
+				C48E6E8922FA73D400AE7EEF /* SQLVC */,
+				C48E6E8822FA73CA00AE7EEF /* NETVC */,
+				C48E6E8722FA73B600AE7EEF /* RXVC */,
+				C48E6E8622FA73AC00AE7EEF /* JSONVC */,
+				C48E6E8522FA73A000AE7EEF /* UIVC */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		C4A03FA423150F0B00F5D5FE /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				C4A03FA623150F7400F5D5FE /* TBLoginVC.swift */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		C4A03FA523150F1B00F5D5FE /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
 		C4A4D72E2306589A00E7F759 /* UIVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -372,6 +420,7 @@
 				C4A4D7422306A55F00E7F759 /* RXTableDataSourceVC.swift */,
 				C4A4D74B230A3FCB00E7F759 /* RxSessionVC.swift */,
 				C4A4D755230A988100E7F759 /* RXAlamVC.swift */,
+				C4A03F9F230FD6C400F5D5FE /* GitHubMVVMVC.swift */,
 			);
 			path = UIVC;
 			sourceTree = "<group>";
@@ -382,6 +431,8 @@
 				C4A4D736230682DC00E7F759 /* Operators.swift */,
 				C4A4D7302306590B00E7F759 /* RXMvvmOneVC.swift */,
 				C4A4D7312306590B00E7F759 /* RXMvvmOneVC.xib */,
+				C4A4D782230E37FF00E7F759 /*  GitHubAPI.swift */,
+				C4A4D788230E447F00E7F759 /* ViewModel.swift */,
 			);
 			path = MVVM;
 			sourceTree = "<group>";
@@ -391,6 +442,7 @@
 			children = (
 				C4A4D74F230A792100E7F759 /* RxObjectMapper.swift */,
 				C4A4D752230A799600E7F759 /* Douban.swift */,
+				C4A4D785230E419900E7F759 /* GitHubModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -619,6 +671,7 @@
 				C4A4D774230CF26600E7F759 /* ImageHelper.swift in Sources */,
 				C4A4D768230BF33600E7F759 /* TBPromiseKitVC.swift in Sources */,
 				C4A4D7432306A55F00E7F759 /* RXTableDataSourceVC.swift in Sources */,
+				C4A4D789230E447F00E7F759 /* ViewModel.swift in Sources */,
 				C4A4D737230682DC00E7F759 /* Operators.swift in Sources */,
 				C4A4D76B230CD31E00E7F759 /* String+Extension.swift in Sources */,
 				C48E6E8322FA736500AE7EEF /* TBTabbarController.swift in Sources */,
@@ -629,16 +682,20 @@
 				C4A382952303ADCE0035866C /* RXTextFileVC.swift in Sources */,
 				C4A4D72C2306536F00E7F759 /* RXActivityIndicatorViewVC.swift in Sources */,
 				C4A4D77A230D2E2400E7F759 /* ServiceManager.swift in Sources */,
+				C4A03FA723150F7400F5D5FE /* TBLoginVC.swift in Sources */,
 				C48E6E9422FA76EF00AE7EEF /* TBShowJsonVC.swift in Sources */,
 				C4A4D7262305505000E7F759 /* RXButtonVC.swift in Sources */,
 				C48E6EA322FAAD7800AE7EEF /* UIColor+Extension.swift in Sources */,
 				C4A4D74023069D8F00E7F759 /* RXTableViewVC.swift in Sources */,
 				C48E6E9122FA76A200AE7EEF /* TBShowUIVC.swift in Sources */,
 				C4A4D77D230D2E6400E7F759 /* LocationTool.swift in Sources */,
+				C4A4D783230E37FF00E7F759 /*  GitHubAPI.swift in Sources */,
 				C48E6E4722F80EB900AE7EEF /* ViewController.swift in Sources */,
+				C4A4D786230E419900E7F759 /* GitHubModel.swift in Sources */,
 				C4A4D780230D2ED000E7F759 /* JHRegularHelp.swift in Sources */,
 				C48E6E9D22FA774400AE7EEF /* TBShowSQLVC.swift in Sources */,
 				C48E6E9A22FA772600AE7EEF /* TBShowNetWorkingVC.swift in Sources */,
+				C4A03FA0230FD6C400F5D5FE /* GitHubMVVMVC.swift in Sources */,
 				C4A4D753230A799600E7F759 /* Douban.swift in Sources */,
 				C48E6E4522F80EB900AE7EEF /* AppDelegate.swift in Sources */,
 				C4A4D73A230685EF00E7F759 /* RXTapGesVC.swift in Sources */,
@@ -668,6 +725,7 @@
 				C4A4D775230CF26600E7F759 /* ImageHelper.swift in Sources */,
 				C4A4D769230BF33600E7F759 /* TBPromiseKitVC.swift in Sources */,
 				C4A4D7442306A55F00E7F759 /* RXTableDataSourceVC.swift in Sources */,
+				C4A4D78A230E447F00E7F759 /* ViewModel.swift in Sources */,
 				C4A4D738230682DC00E7F759 /* Operators.swift in Sources */,
 				C4A4D76C230CD31E00E7F759 /* String+Extension.swift in Sources */,
 				C48E6E8422FA736500AE7EEF /* TBTabbarController.swift in Sources */,
@@ -678,16 +736,20 @@
 				C4A382962303ADCE0035866C /* RXTextFileVC.swift in Sources */,
 				C4A4D72D2306536F00E7F759 /* RXActivityIndicatorViewVC.swift in Sources */,
 				C4A4D77B230D2E2400E7F759 /* ServiceManager.swift in Sources */,
+				C4A03FA823150F7400F5D5FE /* TBLoginVC.swift in Sources */,
 				C48E6E9522FA76EF00AE7EEF /* TBShowJsonVC.swift in Sources */,
 				C4A4D7272305505000E7F759 /* RXButtonVC.swift in Sources */,
 				C48E6EA422FAAD7800AE7EEF /* UIColor+Extension.swift in Sources */,
 				C4A4D74123069D8F00E7F759 /* RXTableViewVC.swift in Sources */,
 				C48E6E9222FA76A200AE7EEF /* TBShowUIVC.swift in Sources */,
 				C4A4D77E230D2E6400E7F759 /* LocationTool.swift in Sources */,
+				C4A4D784230E37FF00E7F759 /*  GitHubAPI.swift in Sources */,
 				C48E6E6822F80FEF00AE7EEF /* ViewController.swift in Sources */,
+				C4A4D787230E419900E7F759 /* GitHubModel.swift in Sources */,
 				C4A4D781230D2ED000E7F759 /* JHRegularHelp.swift in Sources */,
 				C48E6E9E22FA774400AE7EEF /* TBShowSQLVC.swift in Sources */,
 				C48E6E9B22FA772600AE7EEF /* TBShowNetWorkingVC.swift in Sources */,
+				C4A03FA1230FD6C400F5D5FE /* GitHubMVVMVC.swift in Sources */,
 				C4A4D754230A799600E7F759 /* Douban.swift in Sources */,
 				C48E6E6922F80FEF00AE7EEF /* AppDelegate.swift in Sources */,
 				C4A4D73B230685EF00E7F759 /* RXTapGesVC.swift in Sources */,

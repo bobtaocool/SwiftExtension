@@ -20,6 +20,8 @@ pod 'RxAlamofire'
 pod 'Moya'
 pod 'PromiseKit'
 pod 'SwiftDate'
+pod 'Moya/RxSwift', '~> 13.0'
+
 
 end
 
@@ -40,6 +42,8 @@ pod 'RxAlamofire'
 pod 'Moya'
 pod 'PromiseKit'
 pod 'SwiftDate'
+pod 'Moya/RxSwift', '~> 13.0'
+
 
 end
     

@@ -17,6 +17,7 @@ import HandyJSON
 import RxCocoa
 import RxSwift
 import SVProgressHUD
+import Moya
 
 //屏幕宽高
 let TBScreenWidth = UIScreen.main.bounds.width
@@ -36,5 +37,5 @@ let TBTopSafeHeight = CGFloat(TBISPhoneX ? 44 : 0)
 //底部安全区域远离高度
 let TBBottomSafeHeight = CGFloat(TBISPhoneX ? 34 : 0)
 
-let TBMainColor = UIColor.HEX(0x888888)
+let TBMainColor = UIColor.HEX(0xED5F47)
 

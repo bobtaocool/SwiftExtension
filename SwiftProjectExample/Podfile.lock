@@ -3,7 +3,7 @@ PODS:
   - AlamofireObjectMapper (5.2.0):
     - Alamofire (~> 4.7)
     - ObjectMapper (~> 3.4)
-  - Differentiator (4.0.1)
+  - Differentiator (3.1.0)
   - HandyJSON (5.0.0)
   - Kingfisher (4.10.1)
   - Moya (13.0.1):
@@ -11,6 +11,9 @@ PODS:
   - Moya/Core (13.0.1):
     - Alamofire (~> 4.1)
     - Result (~> 4.1)
+  - Moya/RxSwift (13.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
   - ObjectMapper (3.5.1)
   - PromiseKit (6.10.0):
     - PromiseKit/CorePromise (= 6.10.0)
@@ -22,21 +25,18 @@ PODS:
   - PromiseKit/UIKit (6.10.0):
     - PromiseKit/CorePromise
   - Result (4.1.0)
-  - RxAlamofire (5.0.0):
-    - RxAlamofire/Core (= 5.0.0)
-  - RxAlamofire/Core (5.0.0):
+  - RxAlamofire (4.4.1):
+    - RxAlamofire/Core (= 4.4.1)
+  - RxAlamofire/Core (4.4.1):
     - Alamofire (~> 4.8)
-    - RxSwift (~> 5.0)
-  - RxCocoa (5.0.0):
-    - RxRelay (~> 5)
-    - RxSwift (~> 5)
-  - RxDataSources (4.0.1):
-    - Differentiator (~> 4.0)
-    - RxCocoa (~> 5.0)
-    - RxSwift (~> 5.0)
-  - RxRelay (5.0.0):
-    - RxSwift (~> 5)
-  - RxSwift (5.0.0)
+    - RxSwift (~> 4.5)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.5.0)
   - SnapKit (4.2.0)
   - SQLite.swift (0.12.2):
     - SQLite.swift/standard (= 0.12.2)
@@ -51,6 +51,7 @@ DEPENDENCIES:
   - HandyJSON
   - Kingfisher
   - Moya
+  - Moya/RxSwift (~> 13.0)
   - PromiseKit
   - RxAlamofire
   - RxCocoa
@@ -76,7 +77,6 @@ SPEC REPOS:
     - RxAlamofire
     - RxCocoa
     - RxDataSources
-    - RxRelay
     - RxSwift
     - SnapKit
     - SQLite.swift
@@ -87,24 +87,23 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   AlamofireObjectMapper: 92b6ce2423a9d159e686f6a1d514a009bf903ddc
-  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
   HandyJSON: 992f2d661716d6a91de82d0056927bc7813b5770
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
   ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
   PromiseKit: 1fdaeb6c0a94a5114fcb814ff3d772b86886ad4e
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
-  RxAlamofire: e7875a012aff55345672d0f70a2a9cd6aeb0f211
-  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
-  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
-  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
-  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  RxAlamofire: ed65f451f5a9a59419b0b9e705043dc01410edd9
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwiftDate: 8d4f14bf1ef68e95094511504856547bf9e3e1a6
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: b90444cd24c27aeb1238799383f860d6d8daa1b1
+PODFILE CHECKSUM: a6351dc3e3867136b0f302bf8745a2f6f89ef631
 
 COCOAPODS: 1.8.0.beta.1
