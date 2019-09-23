@@ -60,7 +60,6 @@ extension ServiceManager {
     func TurnOnServeManager() {
         if #available(iOS 10.0, *) {
             UIApplication.shared.open(URL.init(string: UIApplication.openSettingsURLString)!, options: [:], completionHandler: nil)
-            
         } else {
             UIApplication.shared.openURL(URL.init(string: UIApplication.openSettingsURLString)!)
         }
