@@ -11,16 +11,8 @@
 		97CFE9DDE7730863B263AF8E /* Pods_SwiftProjectExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C761E024DB903D69B23E0930 /* Pods_SwiftProjectExample.framework */; };
 		C41AED9422FD0D6C004CDD8A /* TBWebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AED9322FD0D6C004CDD8A /* TBWebViewVC.swift */; };
 		C41AED9522FD0D6C004CDD8A /* TBWebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41AED9322FD0D6C004CDD8A /* TBWebViewVC.swift */; };
-		C46EBE762335C2860027E786 /* YKSwInventoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46EBE752335C2860027E786 /* YKSwInventoryManager.swift */; };
-		C46EBE772335C2860027E786 /* YKSwInventoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46EBE752335C2860027E786 /* YKSwInventoryManager.swift */; };
-		C46EBE7A2335C41A0027E786 /* YKSwInventoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46EBE792335C41A0027E786 /* YKSwInventoryCell.swift */; };
-		C46EBE7B2335C41A0027E786 /* YKSwInventoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46EBE792335C41A0027E786 /* YKSwInventoryCell.swift */; };
-		C46EBE7E2335D0550027E786 /* YKSwInvenFootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46EBE7D2335D0550027E786 /* YKSwInvenFootView.swift */; };
-		C46EBE7F2335D0550027E786 /* YKSwInvenFootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46EBE7D2335D0550027E786 /* YKSwInvenFootView.swift */; };
-		C46EBE832335D1AE0027E786 /* ysf_btn_bgimage.png in Resources */ = {isa = PBXBuildFile; fileRef = C46EBE812335D1AE0027E786 /* ysf_btn_bgimage.png */; };
-		C46EBE842335D1AE0027E786 /* ysf_btn_bgimage.png in Resources */ = {isa = PBXBuildFile; fileRef = C46EBE812335D1AE0027E786 /* ysf_btn_bgimage.png */; };
-		C46EBE852335D1AE0027E786 /* ysf_btn_bgimage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C46EBE822335D1AE0027E786 /* ysf_btn_bgimage@3x.png */; };
-		C46EBE862335D1AE0027E786 /* ysf_btn_bgimage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C46EBE822335D1AE0027E786 /* ysf_btn_bgimage@3x.png */; };
+		C4493D832340928800B8CB5D /* CopyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4493D822340928800B8CB5D /* CopyTextField.swift */; };
+		C4493D842340928800B8CB5D /* CopyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4493D822340928800B8CB5D /* CopyTextField.swift */; };
 		C48E6E4522F80EB900AE7EEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E4422F80EB900AE7EEF /* AppDelegate.swift */; };
 		C48E6E4722F80EB900AE7EEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E6E4622F80EB900AE7EEF /* ViewController.swift */; };
 		C48E6E4A22F80EB900AE7EEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48E6E4822F80EB900AE7EEF /* Main.storyboard */; };
@@ -133,11 +125,7 @@
 		A283276C33FA5E262EE31A6E /* Pods_SwiftProjectExampleQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProjectExampleQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BCE325872C21A411ED73AB /* Pods-SwiftProjectExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProjectExample/Pods-SwiftProjectExample.debug.xcconfig"; sourceTree = "<group>"; };
 		C41AED9322FD0D6C004CDD8A /* TBWebViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBWebViewVC.swift; sourceTree = "<group>"; };
-		C46EBE752335C2860027E786 /* YKSwInventoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YKSwInventoryManager.swift; sourceTree = "<group>"; };
-		C46EBE792335C41A0027E786 /* YKSwInventoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YKSwInventoryCell.swift; sourceTree = "<group>"; };
-		C46EBE7D2335D0550027E786 /* YKSwInvenFootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YKSwInvenFootView.swift; sourceTree = "<group>"; };
-		C46EBE812335D1AE0027E786 /* ysf_btn_bgimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ysf_btn_bgimage.png; sourceTree = "<group>"; };
-		C46EBE822335D1AE0027E786 /* ysf_btn_bgimage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ysf_btn_bgimage@3x.png"; sourceTree = "<group>"; };
+		C4493D822340928800B8CB5D /* CopyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyTextField.swift; sourceTree = "<group>"; };
 		C48E6E4122F80EB900AE7EEF /* SwiftProjectExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProjectExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48E6E4422F80EB900AE7EEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C48E6E4622F80EB900AE7EEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -249,31 +237,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		C46EBE782335C3EF0027E786 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				C46EBE792335C41A0027E786 /* YKSwInventoryCell.swift */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		C46EBE7C2335D0230027E786 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				C46EBE7D2335D0550027E786 /* YKSwInvenFootView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		C46EBE802335D1780027E786 /* image */ = {
-			isa = PBXGroup;
-			children = (
-				C46EBE812335D1AE0027E786 /* ysf_btn_bgimage.png */,
-				C46EBE822335D1AE0027E786 /* ysf_btn_bgimage@3x.png */,
-			);
-			path = image;
-			sourceTree = "<group>";
-		};
 		C48E6E3822F80EB900AE7EEF = {
 			isa = PBXGroup;
 			children = (
@@ -367,11 +330,8 @@
 		C48E6E8522FA73A000AE7EEF /* UIVC */ = {
 			isa = PBXGroup;
 			children = (
-				C46EBE802335D1780027E786 /* image */,
-				C46EBE7C2335D0230027E786 /* View */,
-				C46EBE782335C3EF0027E786 /* Cell */,
 				C48E6E9022FA76A200AE7EEF /* TBShowUIVC.swift */,
-				C46EBE752335C2860027E786 /* YKSwInventoryManager.swift */,
+				C4493D822340928800B8CB5D /* CopyTextField.swift */,
 			);
 			path = UIVC;
 			sourceTree = "<group>";
@@ -601,9 +561,7 @@
 			files = (
 				C48E6E4F22F80EBE00AE7EEF /* LaunchScreen.storyboard in Resources */,
 				C48E6E4C22F80EBE00AE7EEF /* Assets.xcassets in Resources */,
-				C46EBE832335D1AE0027E786 /* ysf_btn_bgimage.png in Resources */,
 				C48E6E4A22F80EB900AE7EEF /* Main.storyboard in Resources */,
-				C46EBE852335D1AE0027E786 /* ysf_btn_bgimage@3x.png in Resources */,
 				C4A4D7342306590B00E7F759 /* RXMvvmOneVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -614,9 +572,7 @@
 			files = (
 				C48E6E6C22F80FEF00AE7EEF /* LaunchScreen.storyboard in Resources */,
 				C48E6E6D22F80FEF00AE7EEF /* Assets.xcassets in Resources */,
-				C46EBE842335D1AE0027E786 /* ysf_btn_bgimage.png in Resources */,
 				C48E6E6E22F80FEF00AE7EEF /* Main.storyboard in Resources */,
-				C46EBE862335D1AE0027E786 /* ysf_btn_bgimage@3x.png in Resources */,
 				C4A4D7352306590B00E7F759 /* RXMvvmOneVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -711,8 +667,8 @@
 			files = (
 				C4A382922303A1500035866C /* RXLabelVC.swift in Sources */,
 				C4A4D73D2306971100E7F759 /* RXDatePickerVC.swift in Sources */,
+				C4493D832340928800B8CB5D /* CopyTextField.swift in Sources */,
 				C4A4D75A230B933100E7F759 /* MoyaVC.swift in Sources */,
-				C46EBE762335C2860027E786 /* YKSwInventoryManager.swift in Sources */,
 				C41AED9422FD0D6C004CDD8A /* TBWebViewVC.swift in Sources */,
 				C4A4D771230CF10700E7F759 /* UIImage+Gif.swift in Sources */,
 				C4A4D74C230A3FCB00E7F759 /* RxSessionVC.swift in Sources */,
@@ -733,7 +689,6 @@
 				C4A4D77A230D2E2400E7F759 /* ServiceManager.swift in Sources */,
 				C4A03FA723150F7400F5D5FE /* TBLoginVC.swift in Sources */,
 				C48E6E9422FA76EF00AE7EEF /* TBShowJsonVC.swift in Sources */,
-				C46EBE7A2335C41A0027E786 /* YKSwInventoryCell.swift in Sources */,
 				C4A4D7262305505000E7F759 /* RXButtonVC.swift in Sources */,
 				C48E6EA322FAAD7800AE7EEF /* UIColor+Extension.swift in Sources */,
 				C4A4D74023069D8F00E7F759 /* RXTableViewVC.swift in Sources */,
@@ -753,7 +708,6 @@
 				C48E6E8E22FA75B900AE7EEF /* TBBaseNavVC.swift in Sources */,
 				C4A4D72923058C7E00E7F759 /* RXSwitchVC.swift in Sources */,
 				C4A4D764230BE59900E7F759 /* moyaDownloadAPI.swift in Sources */,
-				C46EBE7E2335D0550027E786 /* YKSwInvenFootView.swift in Sources */,
 				C4A4D75E230BC7CB00E7F759 /* DouBanAPI.swift in Sources */,
 				C48E6E8B22FA758800AE7EEF /* TBBaseVC.swift in Sources */,
 				C4A4D777230D2A1A00E7F759 /* UITextField+Extension.swift in Sources */,
@@ -768,8 +722,8 @@
 			files = (
 				C4A382932303A1500035866C /* RXLabelVC.swift in Sources */,
 				C4A4D73E2306971100E7F759 /* RXDatePickerVC.swift in Sources */,
+				C4493D842340928800B8CB5D /* CopyTextField.swift in Sources */,
 				C4A4D75B230B933100E7F759 /* MoyaVC.swift in Sources */,
-				C46EBE772335C2860027E786 /* YKSwInventoryManager.swift in Sources */,
 				C41AED9522FD0D6C004CDD8A /* TBWebViewVC.swift in Sources */,
 				C4A4D772230CF10700E7F759 /* UIImage+Gif.swift in Sources */,
 				C4A4D74D230A3FCB00E7F759 /* RxSessionVC.swift in Sources */,
@@ -790,7 +744,6 @@
 				C4A4D77B230D2E2400E7F759 /* ServiceManager.swift in Sources */,
 				C4A03FA823150F7400F5D5FE /* TBLoginVC.swift in Sources */,
 				C48E6E9522FA76EF00AE7EEF /* TBShowJsonVC.swift in Sources */,
-				C46EBE7B2335C41A0027E786 /* YKSwInventoryCell.swift in Sources */,
 				C4A4D7272305505000E7F759 /* RXButtonVC.swift in Sources */,
 				C48E6EA422FAAD7800AE7EEF /* UIColor+Extension.swift in Sources */,
 				C4A4D74123069D8F00E7F759 /* RXTableViewVC.swift in Sources */,
@@ -810,7 +763,6 @@
 				C48E6E8F22FA75B900AE7EEF /* TBBaseNavVC.swift in Sources */,
 				C4A4D72A23058C7E00E7F759 /* RXSwitchVC.swift in Sources */,
 				C4A4D765230BE59900E7F759 /* moyaDownloadAPI.swift in Sources */,
-				C46EBE7F2335D0550027E786 /* YKSwInvenFootView.swift in Sources */,
 				C4A4D75F230BC7CB00E7F759 /* DouBanAPI.swift in Sources */,
 				C48E6E8C22FA758800AE7EEF /* TBBaseVC.swift in Sources */,
 				C4A4D778230D2A1A00E7F759 /* UITextField+Extension.swift in Sources */,

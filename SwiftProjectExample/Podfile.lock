@@ -1,8 +1,5 @@
 PODS:
   - Alamofire (4.9.0)
-  - AlamofireObjectMapper (5.2.1):
-    - Alamofire (~> 4.7)
-    - ObjectMapper (~> 3.4)
   - Differentiator (3.1.0)
   - HandyJSON (5.0.0)
   - Kingfisher (4.10.1)
@@ -14,7 +11,6 @@ PODS:
   - Moya/RxSwift (13.0.1):
     - Moya/Core
     - RxSwift (~> 4.0)
-  - ObjectMapper (3.5.1)
   - PromiseKit (6.11.0):
     - PromiseKit/CorePromise (= 6.11.0)
     - PromiseKit/Foundation (= 6.11.0)
@@ -47,7 +43,6 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
-  - AlamofireObjectMapper
   - HandyJSON
   - Kingfisher
   - Moya
@@ -66,12 +61,10 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
-    - AlamofireObjectMapper
     - Differentiator
     - HandyJSON
     - Kingfisher
     - Moya
-    - ObjectMapper
     - PromiseKit
     - Result
     - RxAlamofire
@@ -85,14 +78,12 @@ SPEC REPOS:
     - SwiftyJSON
 
 SPEC CHECKSUMS:
-  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
-  AlamofireObjectMapper: 92b6ce2423a9d159e686f6a1d514a009bf903ddc
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
   Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
   HandyJSON: 992f2d661716d6a91de82d0056927bc7813b5770
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
-  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
-  PromiseKit: 1fdaeb6c0a94a5114fcb814ff3d772b86886ad4e
+  PromiseKit: e4863d06976e7dee5e41c04fc7371c16b3600292
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   RxAlamofire: ed65f451f5a9a59419b0b9e705043dc01410edd9
   RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
@@ -104,6 +95,6 @@ SPEC CHECKSUMS:
   SwiftDate: fa2bb3962056bb44047b4b85a30044e5eae30b03
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: a6351dc3e3867136b0f302bf8745a2f6f89ef631
+PODFILE CHECKSUM: 8b0b4824b7a475522c654078fab1a0839aacbad4
 
-COCOAPODS: 1.8.0.beta.1
+COCOAPODS: 1.8.1

@@ -17,8 +17,7 @@ class TBShowUIVC: TBBaseVC {
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        let vc = YKSwInventoryManager()
-        self.navigationController?.pushViewController(vc, animated: true)
+        
         
     }
 }
